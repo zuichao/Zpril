@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25414" started-at="2017-05-14T04:49:54Z" finished-at="2017-05-14T04:50:19Z">
+  <suite name="Default suite" duration-ms="25669" started-at="2017-05-17T15:41:12Z" finished-at="2017-05-17T15:41:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25414" started-at="2017-05-14T04:49:54Z" finished-at="2017-05-14T04:50:19Z">
-      <class name="abc.TestCanvas">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestCanvas@1bda1e0]" name="beforeMethod" is-config="true" duration-ms="12408" started-at="2017-05-14T12:49:54Z" finished-at="2017-05-14T12:50:06Z">
+    <test name="Default test" duration-ms="25669" started-at="2017-05-17T15:41:12Z" finished-at="2017-05-17T15:41:37Z">
+      <class name="abc.TestPageFactory">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestPageFactory@19297ab]" name="beforeMethod" is-config="true" duration-ms="9306" started-at="2017-05-17T23:41:12Z" finished-at="2017-05-17T23:41:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="canvas()[pri:0, instance:abc.TestCanvas@1bda1e0]" name="canvas" duration-ms="11686" started-at="2017-05-14T12:50:06Z" finished-at="2017-05-14T12:50:18Z">
+        <test-method status="PASS" signature="Pagefactory()[pri:0, instance:abc.TestPageFactory@19297ab]" name="Pagefactory" duration-ms="14371" started-at="2017-05-17T23:41:21Z" finished-at="2017-05-17T23:41:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- canvas -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestCanvas@1bda1e0]" name="afterMethod" is-config="true" duration-ms="1295" started-at="2017-05-14T12:50:18Z" finished-at="2017-05-14T12:50:19Z">
+        </test-method> <!-- Pagefactory -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestPageFactory@19297ab]" name="afterMethod" is-config="true" duration-ms="1939" started-at="2017-05-17T23:41:35Z" finished-at="2017-05-17T23:41:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestCanvas -->
+      </class> <!-- abc.TestPageFactory -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

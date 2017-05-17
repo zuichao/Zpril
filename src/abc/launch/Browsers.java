@@ -23,15 +23,15 @@ public class Browsers {
 			driver = new FirefoxDriver();
 			
 			//窗口最大化
-			//driver.manage().window().maximize();
+			driver.manage().window().maximize();
 			
-			//设置窗口的宽度：1000 高度：500
-			Dimension d = new Dimension(1000, 500);
-			driver.manage().window().setSize(d);
-			
-			//设置窗口的坐标，经度：200 纬度：100
-			Point p = new Point(200, 100);
-			driver.manage().window().setPosition(p);
+//			//设置窗口的宽度：1000 高度：500
+//			Dimension d = new Dimension(1000, 500);
+//			driver.manage().window().setSize(d);
+//			
+//			//设置窗口的坐标，经度：200 纬度：100
+//			Point p = new Point(200, 100);
+//			driver.manage().window().setPosition(p);
 			break;
 			
 		case ie:
