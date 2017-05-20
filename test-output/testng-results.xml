@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25669" started-at="2017-05-17T15:41:12Z" finished-at="2017-05-17T15:41:37Z">
+  <suite name="Default suite" duration-ms="24882" started-at="2017-05-20T06:35:32Z" finished-at="2017-05-20T06:35:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25669" started-at="2017-05-17T15:41:12Z" finished-at="2017-05-17T15:41:37Z">
-      <class name="abc.TestPageFactory">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestPageFactory@19297ab]" name="beforeMethod" is-config="true" duration-ms="9306" started-at="2017-05-17T23:41:12Z" finished-at="2017-05-17T23:41:21Z">
+    <test name="Default test" duration-ms="24882" started-at="2017-05-20T06:35:32Z" finished-at="2017-05-20T06:35:56Z">
+      <class name="abc.TestStringformat">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestStringformat@b49626]" name="beforeMethod" is-config="true" duration-ms="8627" started-at="2017-05-20T14:35:32Z" finished-at="2017-05-20T14:35:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Pagefactory()[pri:0, instance:abc.TestPageFactory@19297ab]" name="Pagefactory" duration-ms="14371" started-at="2017-05-17T23:41:21Z" finished-at="2017-05-17T23:41:35Z">
+        <test-method status="PASS" signature="Stringformat()[pri:0, instance:abc.TestStringformat@b49626]" name="Stringformat" duration-ms="14809" started-at="2017-05-20T14:35:40Z" finished-at="2017-05-20T14:35:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Pagefactory -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestPageFactory@19297ab]" name="afterMethod" is-config="true" duration-ms="1939" started-at="2017-05-17T23:41:35Z" finished-at="2017-05-17T23:41:37Z">
+        </test-method> <!-- Stringformat -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestStringformat@b49626]" name="afterMethod" is-config="true" duration-ms="1413" started-at="2017-05-20T14:35:55Z" finished-at="2017-05-20T14:35:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestPageFactory -->
+      </class> <!-- abc.TestStringformat -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

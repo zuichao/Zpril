@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import abc.interfaces.Elements;
+
 public class WritePage extends BasePage {
 	
 //写信页面
@@ -72,25 +74,29 @@ public class WritePage extends BasePage {
 	public void back () {
 		//driver.switchTo().defaultContent();
   		//driver.switchTo().frame("mainFrame");
-  		driver.navigate().back();
+  		this.driver.navigate().back();
   		System.out.println("点击“返回邮箱首页”"+"\n"+"测试通过");
 	}
 	
 	//从主框架到mainFrame框架并等待一下
 	public void backwait(){
-		driver.switchTo().defaultContent();
-  		driver.switchTo().frame("mainFrame");
-  		driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.SECONDS);
+		this.driver.switchTo().defaultContent();
+  		this.driver.switchTo().frame("mainFrame");
+  		this.driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.SECONDS);
 	}
 	
 	//回到主框架
 	public void backzhu(){
-		driver.switchTo().defaultContent();
-		driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.SECONDS);
+		this.driver.switchTo().defaultContent();
+		this.driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.SECONDS);
 	}
 	
 	//在页面等一会儿
 	public void waityihui(){
-		driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.SECONDS);
+		this.driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.SECONDS);
+	}
+	
+	public WebElement greet(){
+		return this.driver.findElement(By.xpath(Elements.mingcheng));
 	}
 }
