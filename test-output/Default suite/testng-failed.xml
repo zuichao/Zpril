@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="abc.TestStringformat">
+      <class name="abc.TestAlert">
         <methods>
           <include name="beforeMethod"/>
-          <include name="Stringformat"/>
-          <include name="afterMethod"/>
+          <include name="testAlert"/>
         </methods>
-      </class> <!-- abc.TestStringformat -->
+      </class> <!-- abc.TestAlert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

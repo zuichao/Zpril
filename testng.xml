@@ -1,0 +1,17 @@
+<suite name="TestNGSuite">
+	<test name="run">
+		<classes>
+			<class name="abc.TestActions"/>
+			<class name="abc.TestAlert"/>
+			<class name="abc.TestCanvas"/>
+			<class name="abc.TestInterFace"/>
+			<class name="abc.TestJScript"/>
+			<class name="abc.TestKeyBoard"/>
+			<class name="abc.TestPageFactory"/>
+			<class name="abc.TestScrollBy"/>
+			<class name="abc.TestSelect"/>
+			<class name="abc.TestStringformat"/>
+			<class name="abc.TestWindows"/>
+		</classes>
+	</test>
+</suite>
