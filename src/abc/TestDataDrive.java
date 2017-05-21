@@ -1,25 +1,28 @@
 package abc;
 
 import org.testng.annotations.Test;
-import abc.interfaces.*;
-import abc.launch.*;
-import abc.pages.*;
 import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
-public class TestStringformat {
+import abc.interfaces.Outputs;
+import abc.launch.*;
+import abc.pages.*;
+import abc.testdata.*;
+
+public class TestDataDrive {
 	WebDriver driver;
   @Test
-  public void Stringformat() throws Exception{
-	  LoginPage loginPage = new LoginPage(driver, UrlNameWord.Url);
+  public void dataDrive() throws Exception{
+	  Datas a = new Datas(System.getProperty("user.dir")+"/src/abc/testdata/userinfo.csv");
+	  LoginPage loginPage = new LoginPage(driver, a.getTestData("URL", "tc2"));
+	  loginPage.login(a.getTestData("username", "tc2"), a.getTestData("password", "tc2"));
 	  WritePage writePage = new WritePage(driver);
-      loginPage.login(UrlNameWord.u2, UrlNameWord.p);
-	  Thread.sleep(3000);
 	  writePage.backzhu();
 	  writePage.backwait();
-	  Assert.assertEquals(writePage.greet().isDisplayed(),true);
+	  Thread.sleep(3000);
+	  Assert.assertEquals(writePage.greet().isDisplayed(), true);
 	  System.out.println(Outputs.tags2);
   }
   @BeforeMethod

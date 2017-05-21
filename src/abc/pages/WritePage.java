@@ -96,7 +96,13 @@ public class WritePage extends BasePage {
 		this.driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.SECONDS);
 	}
 	
+	
+	/**
+	 * 测试数据驱动时用到     (TestDataDrive)
+	 * 测试动态Xpath时用到（TestStringformat）
+	 */
 	public WebElement greet(){
 		return this.driver.findElement(By.xpath(Elements.mingcheng));
 	}
+	
 }

@@ -1,165 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNGSuite" duration-ms="312787" started-at="2017-05-21T03:16:56Z" finished-at="2017-05-21T03:22:09Z">
+  <suite name="Default suite" duration-ms="31848" started-at="2017-05-21T13:02:35Z" finished-at="2017-05-21T13:03:07Z">
     <groups>
     </groups>
-    <test name="run" duration-ms="312787" started-at="2017-05-21T03:16:56Z" finished-at="2017-05-21T03:22:09Z">
-      <class name="abc.TestWindows">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestWindows@fb8e1e]" name="beforeMethod" is-config="true" duration-ms="9115" started-at="2017-05-21T11:21:42Z" finished-at="2017-05-21T11:21:51Z">
+    <test name="Default test" duration-ms="31848" started-at="2017-05-21T13:02:35Z" finished-at="2017-05-21T13:03:07Z">
+      <class name="abc.TestDataDrive">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestDataDrive@1238fa5]" name="beforeMethod" is-config="true" duration-ms="9431" started-at="2017-05-21T21:02:35Z" finished-at="2017-05-21T21:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="windows()[pri:0, instance:abc.TestWindows@fb8e1e]" name="windows" duration-ms="16195" started-at="2017-05-21T11:21:51Z" finished-at="2017-05-21T11:22:07Z">
+        <test-method status="PASS" signature="dataDrive()[pri:0, instance:abc.TestDataDrive@1238fa5]" name="dataDrive" duration-ms="19024" started-at="2017-05-21T21:02:45Z" finished-at="2017-05-21T21:03:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- windows -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestWindows@fb8e1e]" name="afterMethod" is-config="true" duration-ms="2169" started-at="2017-05-21T11:22:07Z" finished-at="2017-05-21T11:22:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestWindows -->
-      <class name="abc.TestJScript">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestJScript@18f57d2]" name="beforeMethod" is-config="true" duration-ms="11363" started-at="2017-05-21T11:18:58Z" finished-at="2017-05-21T11:19:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="jscript()[pri:0, instance:abc.TestJScript@18f57d2]" name="jscript" duration-ms="16203" started-at="2017-05-21T11:19:09Z" finished-at="2017-05-21T11:19:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jscript -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestJScript@18f57d2]" name="afterMethod" is-config="true" duration-ms="870" started-at="2017-05-21T11:19:26Z" finished-at="2017-05-21T11:19:27Z">
+        </test-method> <!-- dataDrive -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestDataDrive@1238fa5]" name="afterMethod" is-config="true" duration-ms="3327" started-at="2017-05-21T21:03:04Z" finished-at="2017-05-21T21:03:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestJScript -->
-      <class name="abc.TestStringformat">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestStringformat@13be416]" name="beforeMethod" is-config="true" duration-ms="6743" started-at="2017-05-21T11:21:19Z" finished-at="2017-05-21T11:21:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Stringformat()[pri:0, instance:abc.TestStringformat@13be416]" name="Stringformat" duration-ms="14804" started-at="2017-05-21T11:21:26Z" finished-at="2017-05-21T11:21:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Stringformat -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestStringformat@13be416]" name="afterMethod" is-config="true" duration-ms="1087" started-at="2017-05-21T11:21:41Z" finished-at="2017-05-21T11:21:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestStringformat -->
-      <class name="abc.TestAlert">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestAlert@50d7c5]" name="beforeMethod" is-config="true" duration-ms="14611" started-at="2017-05-21T11:17:46Z" finished-at="2017-05-21T11:18:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testAlert()[pri:0, instance:abc.TestAlert@50d7c5]" name="testAlert" duration-ms="3788" started-at="2017-05-21T11:18:01Z" finished-at="2017-05-21T11:18:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAlert -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestAlert@50d7c5]" name="afterMethod" is-config="true" duration-ms="1242" started-at="2017-05-21T11:18:05Z" finished-at="2017-05-21T11:18:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestAlert -->
-      <class name="abc.TestActions">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestActions@ca677f]" name="beforeMethod" is-config="true" duration-ms="25832" started-at="2017-05-21T11:16:57Z" finished-at="2017-05-21T11:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testActions()[pri:0, instance:abc.TestActions@ca677f]" name="testActions" duration-ms="21833" started-at="2017-05-21T11:17:22Z" finished-at="2017-05-21T11:17:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testActions -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestActions@ca677f]" name="afterMethod" is-config="true" duration-ms="2015" started-at="2017-05-21T11:17:44Z" finished-at="2017-05-21T11:17:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestActions -->
-      <class name="abc.TestPageFactory">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestPageFactory@2b7711]" name="beforeMethod" is-config="true" duration-ms="7073" started-at="2017-05-21T11:19:52Z" finished-at="2017-05-21T11:19:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Pagefactory()[pri:0, instance:abc.TestPageFactory@2b7711]" name="Pagefactory" duration-ms="29023" started-at="2017-05-21T11:19:59Z" finished-at="2017-05-21T11:20:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Pagefactory -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestPageFactory@2b7711]" name="afterMethod" is-config="true" duration-ms="1124" started-at="2017-05-21T11:20:28Z" finished-at="2017-05-21T11:20:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestPageFactory -->
-      <class name="abc.TestKeyBoard">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestKeyBoard@1ceb670]" name="beforeMethod" is-config="true" duration-ms="12034" started-at="2017-05-21T11:19:27Z" finished-at="2017-05-21T11:19:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="keyBoard()[pri:0, instance:abc.TestKeyBoard@1ceb670]" name="keyBoard" duration-ms="12889" started-at="2017-05-21T11:19:39Z" finished-at="2017-05-21T11:19:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- keyBoard -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestKeyBoard@1ceb670]" name="afterMethod" is-config="true" duration-ms="913" started-at="2017-05-21T11:19:51Z" finished-at="2017-05-21T11:19:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestKeyBoard -->
-      <class name="abc.TestInterFace">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestInterFace@1b664bb]" name="beforeMethod" is-config="true" duration-ms="7107" started-at="2017-05-21T11:18:34Z" finished-at="2017-05-21T11:18:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="login()[pri:0, instance:abc.TestInterFace@1b664bb]" name="login" duration-ms="15613" started-at="2017-05-21T11:18:41Z" finished-at="2017-05-21T11:18:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestInterFace@1b664bb]" name="afterMethod" is-config="true" duration-ms="1020" started-at="2017-05-21T11:18:57Z" finished-at="2017-05-21T11:18:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestInterFace -->
-      <class name="abc.TestCanvas">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestCanvas@185c6ac]" name="beforeMethod" is-config="true" duration-ms="15927" started-at="2017-05-21T11:18:06Z" finished-at="2017-05-21T11:18:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="canvas()[pri:0, instance:abc.TestCanvas@185c6ac]" name="canvas" duration-ms="11573" started-at="2017-05-21T11:18:22Z" finished-at="2017-05-21T11:18:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- canvas -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestCanvas@185c6ac]" name="afterMethod" is-config="true" duration-ms="991" started-at="2017-05-21T11:18:33Z" finished-at="2017-05-21T11:18:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestCanvas -->
-      <class name="abc.TestScrollBy">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestScrollBy@196076f]" name="beforeMethod" is-config="true" duration-ms="6903" started-at="2017-05-21T11:20:30Z" finished-at="2017-05-21T11:20:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="ScrollBy()[pri:0, instance:abc.TestScrollBy@196076f]" name="ScrollBy" duration-ms="21642" started-at="2017-05-21T11:20:37Z" finished-at="2017-05-21T11:20:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ScrollBy -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestScrollBy@196076f]" name="afterMethod" is-config="true" duration-ms="14" started-at="2017-05-21T11:20:58Z" finished-at="2017-05-21T11:20:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestScrollBy -->
-      <class name="abc.TestSelect">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestSelect@c221d7]" name="beforeMethod" is-config="true" duration-ms="14710" started-at="2017-05-21T11:20:58Z" finished-at="2017-05-21T11:21:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test()[pri:0, instance:abc.TestSelect@c221d7]" name="test" duration-ms="5333" started-at="2017-05-21T11:21:13Z" finished-at="2017-05-21T11:21:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestSelect@c221d7]" name="afterMethod" is-config="true" duration-ms="953" started-at="2017-05-21T11:21:18Z" finished-at="2017-05-21T11:21:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestSelect -->
-    </test> <!-- run -->
-  </suite> <!-- TestNGSuite -->
+      </class> <!-- abc.TestDataDrive -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

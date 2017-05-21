@@ -62,4 +62,5 @@ public class LoginPage extends BasePage {
 			this.getPassWordText().sendKeys(passWord);
 			this.getSubmitButton().click();
 		}
+		
 }
