@@ -9,13 +9,13 @@ import org.testng.annotations.AfterMethod;
 import abc.interfaces.Outputs;
 import abc.launch.*;
 import abc.pages.*;
-import abc.testdata.*;
+import abc.testdatas.*;
 
 public class TestDataDrive {
 	WebDriver driver;
   @Test
   public void dataDrive() throws Exception{
-	  Datas a = new Datas(System.getProperty("user.dir")+"/src/abc/testdata/userinfo.csv");
+	  Datas a = new Datas(System.getProperty("user.dir")+"/src/abc/testdatas/testdata.csv");
 	  LoginPage loginPage = new LoginPage(driver, a.getTestData("URL", "tc2"));
 	  loginPage.login(a.getTestData("username", "tc2"), a.getTestData("password", "tc2"));
 	  WritePage writePage = new WritePage(driver);

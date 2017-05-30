@@ -16,7 +16,7 @@ public class TestSelect {
 	public void beforeMethod() throws Exception {
 		Browsers browsers = new Browsers(BrowsersType.firefox);
 		this.driver = browsers.driver;
-		this.driver.get("http://www.2345.com/");
+		this.driver.get("http://www.hao123.com/");
 	}
 
 	@AfterMethod
@@ -25,21 +25,31 @@ public class TestSelect {
 	}
 
 	@Test
-	public void test() {
-		
-		 driver.findElement(By.id("J_city_switch")).click();
-		 driver.switchTo().frame("city_set_ifr");
-		
-		 Select pro = new Select(driver.findElement(By.id("province")));
-	     pro.selectByValue("32");
+	public void test() throws Exception{
+			
+		 Thread.sleep(3000);
+		 driver.findElement(By.xpath("//span[preceding-sibling::span[contains(text(),'北京')]]")).click();
+		 System.out.println(1);
+		 driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='province']")).click();
+		 Select pro = new Select(driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='province']")));
+		 pro.selectByValue("25");
 	     
-	     Select pro2 = new Select(driver.findElement(By.id("chengs")));
+	     Thread.sleep(3000);
+	     System.out.println(2);
+	     driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='city']")).click();
+	     System.out.println(2.5);
+	     Select pro2 = new Select(driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='city']")));
 	     pro2.selectByIndex(5);
+//	     pro2.selectByVisibleText("L 临汾");
 	     
-	     Select pro3 = new Select(driver.findElement(By.id("cityqx")));
+	     Thread.sleep(3000);
+	     System.out.println(3);
+	     driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='district']")).click();
+	     Select pro3 = new Select(driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='district']")));
 	     pro3.selectByVisibleText("H 洪洞");
 	     
-	     driver.findElement(By.id("buttonsdm")).click();
+	     Thread.sleep(3000);
+	     driver.findElement(By.xpath("//a[contains(text(),'确定')]")).click();
 	     
 	     int o = 0;
 	     for(int i=1;i<10;i++){

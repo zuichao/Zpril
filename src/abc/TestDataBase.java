@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import abc.launch.*;
 import abc.pages.*;
-
+import abc.testdatas.*;
 import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -12,13 +12,20 @@ import org.testng.annotations.AfterMethod;
 public class TestDataBase {
 	
 	WebDriver driver;
+	
   @Test
   public void dataBase() throws Exception {
-	  this.driver.get("http://mail.qq.com/");
-	  DataBasePage dataBasePage = new DataBasePage(driver);
-	  dataBasePage.setUserName("zuichao124");
-	  dataBasePage.setPassword("sunjian123");
-	  dataBasePage.SignIn();
+	  	  
+	  DBOp test = new DBOp("LoginPage1");
+	  LoginPage1 login1 = new LoginPage1(driver);
+	  test.conn();
+	  this.driver.get(test.getValues("BaseUrl"));
+	  Thread.sleep(3000);
+	  login1.LoginStep();
+	  login1.IDPassWord();
+	  login1.setUserName(test.getValues("UserName"));
+	  login1.setPassword(test.getValues("PassWord"));
+	  login1.SignIn();
 	  Thread.sleep(5000);
   }
   @BeforeMethod

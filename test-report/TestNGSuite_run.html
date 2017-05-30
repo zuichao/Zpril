@@ -18,20 +18,20 @@
                <b>run</b>
             </td>
             <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
-               <div style="width: 50px;">0</div>
+               <div style="width: 50px;">2</div>
             </td>
             <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
-               <div style="width: 50px;">11</div>
+               <div style="width: 50px;">12</div>
             </td>
             <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
                <div style="width: 50px;">0</div>
             </td>
             <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
-               <div style="width: 50px;">11</div>
+               <div style="width: 50px;">14</div>
             </td>
             <td align="center"
                 style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
-               <div style="width: 50px;">100%</div>
+               <div style="width: 50px;">86%</div>
             </td>
          </tr>
       </table>
@@ -85,13 +85,385 @@
                <td nowrap="true">Duration</td>
                <td>Exception</td>
             </tr>
+            <tr id="abc.TestDownLoad_downLoad_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDownLoad_downLoad_byStatus_failed_FAIL1_details')">downLoad()</a>
+               </td>
+               <td nowrap="true">15:05:19</td>
+               <td nowrap="true" align="right">13m
+                  20s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('abc.TestDownLoad_downLoad_byStatus_failed_FAIL1_exception')">org.openqa.selenium.remote.UnreachableBrowserException: 
+                     Error communicating with the remote browser. It may have died.
+                     Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                     System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                     '1.7.0_79'
+                     Driver info: driver.version: RemoteWebDriver
+                     Session ID: 8346d90f-7d05-4a6b-9102-1ca590e16da9
+                     Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                     browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                     applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDownLoad_downLoad_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>downLoad
+                     </div>
+                     <div>
+                        <b>Signature: </b>downLoad()[pri:0, instance:abc.TestDownLoad@9652dd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:05:19
+                     </div>
+                     <div>
+                        <b>End time: </b>15:18:40
+                     </div>
+                     <div>
+                        <b>Duration: </b>13m
+                        20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDownLoad_downLoad_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.7.0_79'
+                        Driver info: driver.version: RemoteWebDriver
+                        Session ID: 8346d90f-7d05-4a6b-9102-1ca590e16da9
+                        Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                        browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                        applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+                        	at abc.pages.BaiduPage.anzhuoxiazai(Unknown Source)
+                        	at abc.TestDownLoad.downLoad(Unknown Source)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                        Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused:
+                        connect
+                        	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+                        	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+                        	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+                        	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+                        	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+                        	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+                        	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+                        	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+                        	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+                        	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+                        	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+                        	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+                        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+                        	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+                        	... 29 more
+                        Caused by: java.net.ConnectException: Connection refused: connect
+                        	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+                        	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+                        	at java.net.PlainSocketImpl.connect(Unknown Source)
+                        	at java.net.SocksSocketImpl.connect(Unknown Source)
+                        	at java.net.Socket.connect(Unknown Source)
+                        	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+                        	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+                        	... 44 more
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="abc.TestDownLoad_afterMethod_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDownLoad_afterMethod_byStatus_failed_FAIL2_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">15:18:40</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('abc.TestDownLoad_afterMethod_byStatus_failed_FAIL2_exception')">org.openqa.selenium.remote.UnreachableBrowserException: 
+                     Error communicating with the remote browser. It may have died.
+                     Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                     System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                     '1.7.0_79'
+                     Driver info: driver.version: RemoteWebDriver
+                     Session ID: 8346d90f-7d05-4a6b-9102-1ca590e16da9
+                     Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                     browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                     applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDownLoad_afterMethod_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestDownLoad@9652dd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:18:40
+                     </div>
+                     <div>
+                        <b>End time: </b>15:18:40
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDownLoad_afterMethod_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.7.0_79'
+                        Driver info: driver.version: RemoteWebDriver
+                        Session ID: 8346d90f-7d05-4a6b-9102-1ca590e16da9
+                        Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                        browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                        applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
+                        	at abc.TestDownLoad.afterMethod(Unknown Source)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                        Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused:
+                        connect
+                        	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+                        	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+                        	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+                        	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+                        	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+                        	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+                        	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+                        	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+                        	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+                        	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+                        	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+                        	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+                        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+                        	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+                        	... 28 more
+                        Caused by: java.net.ConnectException: Connection refused: connect
+                        	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+                        	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+                        	at java.net.PlainSocketImpl.connect(Unknown Source)
+                        	at java.net.SocksSocketImpl.connect(Unknown Source)
+                        	at java.net.Socket.connect(Unknown Source)
+                        	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+                        	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+                        	... 43 more
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="abc.TestSelect_test_byStatus_failed_FAIL3_row" class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestSelect_test_byStatus_failed_FAIL3_details')">test()</a>
+               </td>
+               <td nowrap="true">15:03:33</td>
+               <td nowrap="true" align="right">158 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('abc.TestSelect_test_byStatus_failed_FAIL3_exception')">org.openqa.selenium.NoSuchElementException: 
+                     Unable to locate element: {"method":"id","selector":"J_city_switch"}
+                     Command duration or timeout: 35 milliseconds
+                     For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                     System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                     '1.7.0_79'
+                     *** Element info: {Using=id, value=J_city_switch}
+                     Session ID: 3218c234-2886-43c3-b650-f67377130cd8
+                     Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                     Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                     browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                     applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestSelect_test_byStatus_failed_FAIL3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>test
+                     </div>
+                     <div>
+                        <b>Signature: </b>test()[pri:0, instance:abc.TestSelect@5dfb22]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:03:33
+                     </div>
+                     <div>
+                        <b>End time: </b>15:03:33
+                     </div>
+                     <div>
+                        <b>Duration: </b>158 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestSelect_test_byStatus_failed_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"J_city_switch"}
+                        Command duration or timeout: 35 milliseconds
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.7.0_79'
+                        *** Element info: {Using=id, value=J_city_switch}
+                        Session ID: 3218c234-2886-43c3-b650-f67377130cd8
+                        Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                        Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                        browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                        applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+                        	at org.openqa.selenium.By$ById.findElement(By.java:218)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+                        	at abc.TestSelect.test(Unknown Source)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                        Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"J_city_switch"}
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.7.0_79'
+                        Driver info: driver.version: unknown
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/sunjian/AppData/Local/Temp/anonymous3989103178006502208webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/sunjian/AppData/Local/Temp/anonymous3989103178006502208webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/sunjian/AppData/Local/Temp/anonymous3989103178006502208webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/sunjian/AppData/Local/Temp/anonymous3989103178006502208webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/sunjian/AppData/Local/Temp/anonymous3989103178006502208webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
             <tr id="abc.TestWindows_beforeMethod_byStatus_passed_PASS1_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestWindows_beforeMethod_byStatus_passed_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:21:42</td>
-               <td nowrap="true" align="right">9s
+               <td nowrap="true">15:03:57</td>
+               <td nowrap="true" align="right">12s
                   
                </td>
                <td nowrap="true">
@@ -107,16 +479,16 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestWindows@fb8e1e]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestWindows@6b2ab7]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:42
+                        <b>Start time: </b>15:03:57
                      </div>
                      <div>
-                        <b>End time: </b>11:21:51
+                        <b>End time: </b>15:04:10
                      </div>
                      <div>
-                        <b>Duration: </b>9s
+                        <b>Duration: </b>12s
                         
                      </div>
                   </div>
@@ -128,8 +500,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestWindows_windows_byStatus_passed_PASS2_details')">windows()</a>
                </td>
-               <td nowrap="true">11:21:51</td>
-               <td nowrap="true" align="right">16s
+               <td nowrap="true">15:04:10</td>
+               <td nowrap="true" align="right">9s
                   
                </td>
                <td nowrap="true">
@@ -145,16 +517,16 @@
                         <b>Name: </b>windows
                      </div>
                      <div>
-                        <b>Signature: </b>windows()[pri:0, instance:abc.TestWindows@fb8e1e]
+                        <b>Signature: </b>windows()[pri:0, instance:abc.TestWindows@6b2ab7]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:51
+                        <b>Start time: </b>15:04:10
                      </div>
                      <div>
-                        <b>End time: </b>11:22:07
+                        <b>End time: </b>15:04:19
                      </div>
                      <div>
-                        <b>Duration: </b>16s
+                        <b>Duration: </b>9s
                         
                      </div>
                   </div>
@@ -166,7 +538,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestWindows_afterMethod_byStatus_passed_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:22:07</td>
+               <td nowrap="true">15:04:19</td>
                <td nowrap="true" align="right">2s
                   
                </td>
@@ -183,13 +555,13 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestWindows@fb8e1e]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestWindows@6b2ab7]
                      </div>
                      <div>
-                        <b>Start time: </b>11:22:07
+                        <b>Start time: </b>15:04:19
                      </div>
                      <div>
-                        <b>End time: </b>11:22:09
+                        <b>End time: </b>15:04:21
                      </div>
                      <div>
                         <b>Duration: </b>2s
@@ -199,13 +571,13 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestJScript_beforeMethod_byStatus_passed_PASS4_row"
+            <tr id="abc.TestDataBase_beforeMethod_byStatus_passed_PASS4_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestJScript_beforeMethod_byStatus_passed_PASS4_details')">beforeMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestDataBase_beforeMethod_byStatus_passed_PASS4_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:18:58</td>
-               <td nowrap="true" align="right">11s
+               <td nowrap="true">15:04:21</td>
+               <td nowrap="true" align="right">7s
                   
                </td>
                <td nowrap="true">
@@ -215,35 +587,35 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestJScript_beforeMethod_byStatus_passed_PASS4_details"
+                  <div id="abc.TestDataBase_beforeMethod_byStatus_passed_PASS4_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestJScript@18f57d2]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestDataBase@1c17a8c]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:58
+                        <b>Start time: </b>15:04:21
                      </div>
                      <div>
-                        <b>End time: </b>11:19:09
+                        <b>End time: </b>15:04:28
                      </div>
                      <div>
-                        <b>Duration: </b>11s
+                        <b>Duration: </b>7s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestJScript_jscript_byStatus_passed_PASS5_row"
+            <tr id="abc.TestDataBase_dataBase_byStatus_passed_PASS5_row"
                 class="testMethodStatusPASS">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestJScript_jscript_byStatus_passed_PASS5_details')">jscript()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestDataBase_dataBase_byStatus_passed_PASS5_details')">dataBase()</a>
                </td>
-               <td nowrap="true">11:19:09</td>
-               <td nowrap="true" align="right">16s
+               <td nowrap="true">15:04:28</td>
+               <td nowrap="true" align="right">17s
                   
                </td>
                <td nowrap="true">
@@ -253,148 +625,34 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestJScript_jscript_byStatus_passed_PASS5_details"
+                  <div id="abc.TestDataBase_dataBase_byStatus_passed_PASS5_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>jscript
+                        <b>Name: </b>dataBase
                      </div>
                      <div>
-                        <b>Signature: </b>jscript()[pri:0, instance:abc.TestJScript@18f57d2]
+                        <b>Signature: </b>dataBase()[pri:0, instance:abc.TestDataBase@1c17a8c]
                      </div>
                      <div>
-                        <b>Start time: </b>11:19:09
+                        <b>Start time: </b>15:04:28
                      </div>
                      <div>
-                        <b>End time: </b>11:19:26
+                        <b>End time: </b>15:04:46
                      </div>
                      <div>
-                        <b>Duration: </b>16s
+                        <b>Duration: </b>17s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestJScript_afterMethod_byStatus_passed_PASS6_row"
+            <tr id="abc.TestDataBase_afterMethod_byStatus_passed_PASS6_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestJScript_afterMethod_byStatus_passed_PASS6_details')">afterMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestDataBase_afterMethod_byStatus_passed_PASS6_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:19:26</td>
-               <td nowrap="true" align="right">870 ms
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="abc.TestJScript_afterMethod_byStatus_passed_PASS6_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>afterMethod
-                     </div>
-                     <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestJScript@18f57d2]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:19:26
-                     </div>
-                     <div>
-                        <b>End time: </b>11:19:27
-                     </div>
-                     <div>
-                        <b>Duration: </b>870 ms
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="abc.TestStringformat_beforeMethod_byStatus_passed_PASS7_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestStringformat_beforeMethod_byStatus_passed_PASS7_details')">beforeMethod()</a>
-               </td>
-               <td nowrap="true">11:21:19</td>
-               <td nowrap="true" align="right">6s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="abc.TestStringformat_beforeMethod_byStatus_passed_PASS7_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>beforeMethod
-                     </div>
-                     <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestStringformat@13be416]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:21:19
-                     </div>
-                     <div>
-                        <b>End time: </b>11:21:26
-                     </div>
-                     <div>
-                        <b>Duration: </b>6s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="abc.TestStringformat_Stringformat_byStatus_passed_PASS8_row"
-                class="testMethodStatusPASS">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestStringformat_Stringformat_byStatus_passed_PASS8_details')">Stringformat()</a>
-               </td>
-               <td nowrap="true">11:21:26</td>
-               <td nowrap="true" align="right">14s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="abc.TestStringformat_Stringformat_byStatus_passed_PASS8_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>Stringformat
-                     </div>
-                     <div>
-                        <b>Signature: </b>Stringformat()[pri:0, instance:abc.TestStringformat@13be416]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:21:26
-                     </div>
-                     <div>
-                        <b>End time: </b>11:21:41
-                     </div>
-                     <div>
-                        <b>Duration: </b>14s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="abc.TestStringformat_afterMethod_byStatus_passed_PASS9_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestStringformat_afterMethod_byStatus_passed_PASS9_details')">afterMethod()</a>
-               </td>
-               <td nowrap="true">11:21:41</td>
+               <td nowrap="true">15:04:46</td>
                <td nowrap="true" align="right">1s
                   
                </td>
@@ -405,19 +663,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestStringformat_afterMethod_byStatus_passed_PASS9_details"
+                  <div id="abc.TestDataBase_afterMethod_byStatus_passed_PASS6_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestStringformat@13be416]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestDataBase@1c17a8c]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:41
+                        <b>Start time: </b>15:04:46
                      </div>
                      <div>
-                        <b>End time: </b>11:21:42
+                        <b>End time: </b>15:04:47
                      </div>
                      <div>
                         <b>Duration: </b>1s
@@ -427,13 +685,13 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestAlert_beforeMethod_byStatus_passed_PASS10_row"
+            <tr id="abc.TestPageFactory_beforeMethod_byStatus_passed_PASS7_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestAlert_beforeMethod_byStatus_passed_PASS10_details')">beforeMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestPageFactory_beforeMethod_byStatus_passed_PASS7_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:17:46</td>
-               <td nowrap="true" align="right">14s
+               <td nowrap="true">15:02:08</td>
+               <td nowrap="true" align="right">7s
                   
                </td>
                <td nowrap="true">
@@ -443,35 +701,35 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestAlert_beforeMethod_byStatus_passed_PASS10_details"
+                  <div id="abc.TestPageFactory_beforeMethod_byStatus_passed_PASS7_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestAlert@50d7c5]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestPageFactory@a0fbd6]
                      </div>
                      <div>
-                        <b>Start time: </b>11:17:46
+                        <b>Start time: </b>15:02:08
                      </div>
                      <div>
-                        <b>End time: </b>11:18:01
+                        <b>End time: </b>15:02:16
                      </div>
                      <div>
-                        <b>Duration: </b>14s
+                        <b>Duration: </b>7s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestAlert_testAlert_byStatus_passed_PASS11_row"
+            <tr id="abc.TestPageFactory_Pagefactory_byStatus_passed_PASS8_row"
                 class="testMethodStatusPASS">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestAlert_testAlert_byStatus_passed_PASS11_details')">testAlert()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestPageFactory_Pagefactory_byStatus_passed_PASS8_details')">Pagefactory()</a>
                </td>
-               <td nowrap="true">11:18:01</td>
-               <td nowrap="true" align="right">3s
+               <td nowrap="true">15:02:16</td>
+               <td nowrap="true" align="right">28s
                   
                </td>
                <td nowrap="true">
@@ -481,35 +739,35 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestAlert_testAlert_byStatus_passed_PASS11_details"
+                  <div id="abc.TestPageFactory_Pagefactory_byStatus_passed_PASS8_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>testAlert
+                        <b>Name: </b>Pagefactory
                      </div>
                      <div>
-                        <b>Signature: </b>testAlert()[pri:0, instance:abc.TestAlert@50d7c5]
+                        <b>Signature: </b>Pagefactory()[pri:0, instance:abc.TestPageFactory@a0fbd6]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:01
+                        <b>Start time: </b>15:02:16
                      </div>
                      <div>
-                        <b>End time: </b>11:18:05
+                        <b>End time: </b>15:02:44
                      </div>
                      <div>
-                        <b>Duration: </b>3s
+                        <b>Duration: </b>28s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestAlert_afterMethod_byStatus_passed_PASS12_row"
+            <tr id="abc.TestPageFactory_afterMethod_byStatus_passed_PASS9_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestAlert_afterMethod_byStatus_passed_PASS12_details')">afterMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestPageFactory_afterMethod_byStatus_passed_PASS9_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:18:05</td>
-               <td nowrap="true" align="right">1s
+               <td nowrap="true">15:02:44</td>
+               <td nowrap="true" align="right">4s
                   
                </td>
                <td nowrap="true">
@@ -519,35 +777,35 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestAlert_afterMethod_byStatus_passed_PASS12_details"
+                  <div id="abc.TestPageFactory_afterMethod_byStatus_passed_PASS9_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestAlert@50d7c5]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestPageFactory@a0fbd6]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:05
+                        <b>Start time: </b>15:02:44
                      </div>
                      <div>
-                        <b>End time: </b>11:18:06
+                        <b>End time: </b>15:02:48
                      </div>
                      <div>
-                        <b>Duration: </b>1s
+                        <b>Duration: </b>4s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestActions_beforeMethod_byStatus_passed_PASS13_row"
+            <tr id="abc.TestKeyBoard_beforeMethod_byStatus_passed_PASS10_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestActions_beforeMethod_byStatus_passed_PASS13_details')">beforeMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestKeyBoard_beforeMethod_byStatus_passed_PASS10_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:16:57</td>
-               <td nowrap="true" align="right">25s
+               <td nowrap="true">15:01:40</td>
+               <td nowrap="true" align="right">12s
                   
                </td>
                <td nowrap="true">
@@ -557,35 +815,35 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestActions_beforeMethod_byStatus_passed_PASS13_details"
+                  <div id="abc.TestKeyBoard_beforeMethod_byStatus_passed_PASS10_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestActions@ca677f]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestKeyBoard@1afebc9]
                      </div>
                      <div>
-                        <b>Start time: </b>11:16:57
+                        <b>Start time: </b>15:01:40
                      </div>
                      <div>
-                        <b>End time: </b>11:17:22
+                        <b>End time: </b>15:01:53
                      </div>
                      <div>
-                        <b>Duration: </b>25s
+                        <b>Duration: </b>12s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestActions_testActions_byStatus_passed_PASS14_row"
+            <tr id="abc.TestKeyBoard_keyBoard_byStatus_passed_PASS11_row"
                 class="testMethodStatusPASS">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestActions_testActions_byStatus_passed_PASS14_details')">testActions()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestKeyBoard_keyBoard_byStatus_passed_PASS11_details')">keyBoard()</a>
                </td>
-               <td nowrap="true">11:17:22</td>
-               <td nowrap="true" align="right">21s
+               <td nowrap="true">15:01:53</td>
+               <td nowrap="true" align="right">12s
                   
                </td>
                <td nowrap="true">
@@ -595,34 +853,34 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestActions_testActions_byStatus_passed_PASS14_details"
+                  <div id="abc.TestKeyBoard_keyBoard_byStatus_passed_PASS11_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>testActions
+                        <b>Name: </b>keyBoard
                      </div>
                      <div>
-                        <b>Signature: </b>testActions()[pri:0, instance:abc.TestActions@ca677f]
+                        <b>Signature: </b>keyBoard()[pri:0, instance:abc.TestKeyBoard@1afebc9]
                      </div>
                      <div>
-                        <b>Start time: </b>11:17:22
+                        <b>Start time: </b>15:01:53
                      </div>
                      <div>
-                        <b>End time: </b>11:17:44
+                        <b>End time: </b>15:02:06
                      </div>
                      <div>
-                        <b>Duration: </b>21s
+                        <b>Duration: </b>12s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestActions_afterMethod_byStatus_passed_PASS15_row"
+            <tr id="abc.TestKeyBoard_afterMethod_byStatus_passed_PASS12_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestActions_afterMethod_byStatus_passed_PASS15_details')">afterMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestKeyBoard_afterMethod_byStatus_passed_PASS12_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:17:44</td>
+               <td nowrap="true">15:02:06</td>
                <td nowrap="true" align="right">2s
                   
                </td>
@@ -633,19 +891,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestActions_afterMethod_byStatus_passed_PASS15_details"
+                  <div id="abc.TestKeyBoard_afterMethod_byStatus_passed_PASS12_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestActions@ca677f]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestKeyBoard@1afebc9]
                      </div>
                      <div>
-                        <b>Start time: </b>11:17:44
+                        <b>Start time: </b>15:02:06
                      </div>
                      <div>
-                        <b>End time: </b>11:17:46
+                        <b>End time: </b>15:02:08
                      </div>
                      <div>
                         <b>Duration: </b>2s
@@ -655,12 +913,12 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestPageFactory_beforeMethod_byStatus_passed_PASS16_row"
+            <tr id="abc.TestInterFace_beforeMethod_byStatus_passed_PASS13_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestPageFactory_beforeMethod_byStatus_passed_PASS16_details')">beforeMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestInterFace_beforeMethod_byStatus_passed_PASS13_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:19:52</td>
+               <td nowrap="true">15:00:51</td>
                <td nowrap="true" align="right">7s
                   
                </td>
@@ -671,19 +929,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestPageFactory_beforeMethod_byStatus_passed_PASS16_details"
+                  <div id="abc.TestInterFace_beforeMethod_byStatus_passed_PASS13_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestPageFactory@2b7711]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestInterFace@ebc2a2]
                      </div>
                      <div>
-                        <b>Start time: </b>11:19:52
+                        <b>Start time: </b>15:00:51
                      </div>
                      <div>
-                        <b>End time: </b>11:19:59
+                        <b>End time: </b>15:00:58
                      </div>
                      <div>
                         <b>Duration: </b>7s
@@ -693,13 +951,13 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestPageFactory_Pagefactory_byStatus_passed_PASS17_row"
+            <tr id="abc.TestInterFace_login_byStatus_passed_PASS14_row"
                 class="testMethodStatusPASS">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestPageFactory_Pagefactory_byStatus_passed_PASS17_details')">Pagefactory()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestInterFace_login_byStatus_passed_PASS14_details')">login()</a>
                </td>
-               <td nowrap="true">11:19:59</td>
-               <td nowrap="true" align="right">29s
+               <td nowrap="true">15:00:58</td>
+               <td nowrap="true" align="right">8s
                   
                </td>
                <td nowrap="true">
@@ -709,263 +967,35 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestPageFactory_Pagefactory_byStatus_passed_PASS17_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>Pagefactory
-                     </div>
-                     <div>
-                        <b>Signature: </b>Pagefactory()[pri:0, instance:abc.TestPageFactory@2b7711]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:19:59
-                     </div>
-                     <div>
-                        <b>End time: </b>11:20:28
-                     </div>
-                     <div>
-                        <b>Duration: </b>29s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="abc.TestPageFactory_afterMethod_byStatus_passed_PASS18_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestPageFactory_afterMethod_byStatus_passed_PASS18_details')">afterMethod()</a>
-               </td>
-               <td nowrap="true">11:20:28</td>
-               <td nowrap="true" align="right">1s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="abc.TestPageFactory_afterMethod_byStatus_passed_PASS18_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>afterMethod
-                     </div>
-                     <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestPageFactory@2b7711]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:20:28
-                     </div>
-                     <div>
-                        <b>End time: </b>11:20:30
-                     </div>
-                     <div>
-                        <b>Duration: </b>1s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="abc.TestKeyBoard_beforeMethod_byStatus_passed_PASS19_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestKeyBoard_beforeMethod_byStatus_passed_PASS19_details')">beforeMethod()</a>
-               </td>
-               <td nowrap="true">11:19:27</td>
-               <td nowrap="true" align="right">12s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="abc.TestKeyBoard_beforeMethod_byStatus_passed_PASS19_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>beforeMethod
-                     </div>
-                     <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestKeyBoard@1ceb670]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:19:27
-                     </div>
-                     <div>
-                        <b>End time: </b>11:19:39
-                     </div>
-                     <div>
-                        <b>Duration: </b>12s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="abc.TestKeyBoard_keyBoard_byStatus_passed_PASS20_row"
-                class="testMethodStatusPASS">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestKeyBoard_keyBoard_byStatus_passed_PASS20_details')">keyBoard()</a>
-               </td>
-               <td nowrap="true">11:19:39</td>
-               <td nowrap="true" align="right">12s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="abc.TestKeyBoard_keyBoard_byStatus_passed_PASS20_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>keyBoard
-                     </div>
-                     <div>
-                        <b>Signature: </b>keyBoard()[pri:0, instance:abc.TestKeyBoard@1ceb670]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:19:39
-                     </div>
-                     <div>
-                        <b>End time: </b>11:19:51
-                     </div>
-                     <div>
-                        <b>Duration: </b>12s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="abc.TestKeyBoard_afterMethod_byStatus_passed_PASS21_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestKeyBoard_afterMethod_byStatus_passed_PASS21_details')">afterMethod()</a>
-               </td>
-               <td nowrap="true">11:19:51</td>
-               <td nowrap="true" align="right">913 ms
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="abc.TestKeyBoard_afterMethod_byStatus_passed_PASS21_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>afterMethod
-                     </div>
-                     <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestKeyBoard@1ceb670]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:19:51
-                     </div>
-                     <div>
-                        <b>End time: </b>11:19:52
-                     </div>
-                     <div>
-                        <b>Duration: </b>913 ms
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="abc.TestInterFace_beforeMethod_byStatus_passed_PASS22_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestInterFace_beforeMethod_byStatus_passed_PASS22_details')">beforeMethod()</a>
-               </td>
-               <td nowrap="true">11:18:34</td>
-               <td nowrap="true" align="right">7s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="abc.TestInterFace_beforeMethod_byStatus_passed_PASS22_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>beforeMethod
-                     </div>
-                     <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestInterFace@1b664bb]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:18:34
-                     </div>
-                     <div>
-                        <b>End time: </b>11:18:41
-                     </div>
-                     <div>
-                        <b>Duration: </b>7s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="abc.TestInterFace_login_byStatus_passed_PASS23_row"
-                class="testMethodStatusPASS">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestInterFace_login_byStatus_passed_PASS23_details')">login()</a>
-               </td>
-               <td nowrap="true">11:18:41</td>
-               <td nowrap="true" align="right">15s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="abc.TestInterFace_login_byStatus_passed_PASS23_details"
+                  <div id="abc.TestInterFace_login_byStatus_passed_PASS14_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>login
                      </div>
                      <div>
-                        <b>Signature: </b>login()[pri:0, instance:abc.TestInterFace@1b664bb]
+                        <b>Signature: </b>login()[pri:0, instance:abc.TestInterFace@ebc2a2]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:41
+                        <b>Start time: </b>15:00:58
                      </div>
                      <div>
-                        <b>End time: </b>11:18:57
+                        <b>End time: </b>15:01:07
                      </div>
                      <div>
-                        <b>Duration: </b>15s
+                        <b>Duration: </b>8s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestInterFace_afterMethod_byStatus_passed_PASS24_row"
+            <tr id="abc.TestInterFace_afterMethod_byStatus_passed_PASS15_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestInterFace_afterMethod_byStatus_passed_PASS24_details')">afterMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestInterFace_afterMethod_byStatus_passed_PASS15_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:18:57</td>
-               <td nowrap="true" align="right">1s
+               <td nowrap="true">15:01:07</td>
+               <td nowrap="true" align="right">2s
                   
                </td>
                <td nowrap="true">
@@ -975,35 +1005,35 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestInterFace_afterMethod_byStatus_passed_PASS24_details"
+                  <div id="abc.TestInterFace_afterMethod_byStatus_passed_PASS15_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestInterFace@1b664bb]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestInterFace@ebc2a2]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:57
+                        <b>Start time: </b>15:01:07
                      </div>
                      <div>
-                        <b>End time: </b>11:18:58
+                        <b>End time: </b>15:01:09
                      </div>
                      <div>
-                        <b>Duration: </b>1s
+                        <b>Duration: </b>2s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestCanvas_beforeMethod_byStatus_passed_PASS25_row"
+            <tr id="abc.TestDownLoad_beforeMethod_byStatus_passed_PASS16_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestCanvas_beforeMethod_byStatus_passed_PASS25_details')">beforeMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestDownLoad_beforeMethod_byStatus_passed_PASS16_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:18:06</td>
-               <td nowrap="true" align="right">15s
+               <td nowrap="true">15:05:09</td>
+               <td nowrap="true" align="right">9s
                   
                </td>
                <td nowrap="true">
@@ -1013,34 +1043,34 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestCanvas_beforeMethod_byStatus_passed_PASS25_details"
+                  <div id="abc.TestDownLoad_beforeMethod_byStatus_passed_PASS16_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestCanvas@185c6ac]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestDownLoad@9652dd]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:06
+                        <b>Start time: </b>15:05:09
                      </div>
                      <div>
-                        <b>End time: </b>11:18:22
+                        <b>End time: </b>15:05:19
                      </div>
                      <div>
-                        <b>Duration: </b>15s
+                        <b>Duration: </b>9s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestCanvas_canvas_byStatus_passed_PASS26_row"
-                class="testMethodStatusPASS">
+            <tr id="abc.TestJScript_beforeMethod_byStatus_passed_PASS17_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestCanvas_canvas_byStatus_passed_PASS26_details')">canvas()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestJScript_beforeMethod_byStatus_passed_PASS17_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:18:22</td>
+               <td nowrap="true">15:01:09</td>
                <td nowrap="true" align="right">11s
                   
                </td>
@@ -1051,19 +1081,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestCanvas_canvas_byStatus_passed_PASS26_details"
+                  <div id="abc.TestJScript_beforeMethod_byStatus_passed_PASS17_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>canvas
+                        <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>canvas()[pri:0, instance:abc.TestCanvas@185c6ac]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestJScript@374956]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:22
+                        <b>Start time: </b>15:01:09
                      </div>
                      <div>
-                        <b>End time: </b>11:18:33
+                        <b>End time: </b>15:01:21
                      </div>
                      <div>
                         <b>Duration: </b>11s
@@ -1073,13 +1103,13 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestCanvas_afterMethod_byStatus_passed_PASS27_row"
-                class="testMethodStatusPASS testMethodStatusCONF">
+            <tr id="abc.TestJScript_jscript_byStatus_passed_PASS18_row"
+                class="testMethodStatusPASS">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestCanvas_afterMethod_byStatus_passed_PASS27_details')">afterMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestJScript_jscript_byStatus_passed_PASS18_details')">jscript()</a>
                </td>
-               <td nowrap="true">11:18:33</td>
-               <td nowrap="true" align="right">991 ms
+               <td nowrap="true">15:01:21</td>
+               <td nowrap="true" align="right">16s
                   
                </td>
                <td nowrap="true">
@@ -1089,34 +1119,72 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestCanvas_afterMethod_byStatus_passed_PASS27_details"
+                  <div id="abc.TestJScript_jscript_byStatus_passed_PASS18_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>afterMethod
+                        <b>Name: </b>jscript
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestCanvas@185c6ac]
+                        <b>Signature: </b>jscript()[pri:0, instance:abc.TestJScript@374956]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:33
+                        <b>Start time: </b>15:01:21
                      </div>
                      <div>
-                        <b>End time: </b>11:18:34
+                        <b>End time: </b>15:01:37
                      </div>
                      <div>
-                        <b>Duration: </b>991 ms
+                        <b>Duration: </b>16s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestScrollBy_beforeMethod_byStatus_passed_PASS28_row"
+            <tr id="abc.TestJScript_afterMethod_byStatus_passed_PASS19_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestScrollBy_beforeMethod_byStatus_passed_PASS28_details')">beforeMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestJScript_afterMethod_byStatus_passed_PASS19_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:20:30</td>
+               <td nowrap="true">15:01:37</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestJScript_afterMethod_byStatus_passed_PASS19_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestJScript@374956]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:01:37
+                     </div>
+                     <div>
+                        <b>End time: </b>15:01:40
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestStringformat_beforeMethod_byStatus_passed_PASS20_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestStringformat_beforeMethod_byStatus_passed_PASS20_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">15:03:35</td>
                <td nowrap="true" align="right">6s
                   
                </td>
@@ -1127,19 +1195,19 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestScrollBy_beforeMethod_byStatus_passed_PASS28_details"
+                  <div id="abc.TestStringformat_beforeMethod_byStatus_passed_PASS20_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestScrollBy@196076f]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestStringformat@128f03]
                      </div>
                      <div>
-                        <b>Start time: </b>11:20:30
+                        <b>Start time: </b>15:03:35
                      </div>
                      <div>
-                        <b>End time: </b>11:20:37
+                        <b>End time: </b>15:03:42
                      </div>
                      <div>
                         <b>Duration: </b>6s
@@ -1149,13 +1217,13 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestScrollBy_ScrollBy_byStatus_passed_PASS29_row"
+            <tr id="abc.TestStringformat_Stringformat_byStatus_passed_PASS21_row"
                 class="testMethodStatusPASS">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestScrollBy_ScrollBy_byStatus_passed_PASS29_details')">ScrollBy()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestStringformat_Stringformat_byStatus_passed_PASS21_details')">Stringformat()</a>
                </td>
-               <td nowrap="true">11:20:37</td>
-               <td nowrap="true" align="right">21s
+               <td nowrap="true">15:03:42</td>
+               <td nowrap="true" align="right">13s
                   
                </td>
                <td nowrap="true">
@@ -1165,35 +1233,35 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestScrollBy_ScrollBy_byStatus_passed_PASS29_details"
+                  <div id="abc.TestStringformat_Stringformat_byStatus_passed_PASS21_details"
                        class="testMethodDetails">
                      <div>
-                        <b>Name: </b>ScrollBy
+                        <b>Name: </b>Stringformat
                      </div>
                      <div>
-                        <b>Signature: </b>ScrollBy()[pri:0, instance:abc.TestScrollBy@196076f]
+                        <b>Signature: </b>Stringformat()[pri:0, instance:abc.TestStringformat@128f03]
                      </div>
                      <div>
-                        <b>Start time: </b>11:20:37
+                        <b>Start time: </b>15:03:42
                      </div>
                      <div>
-                        <b>End time: </b>11:20:58
+                        <b>End time: </b>15:03:55
                      </div>
                      <div>
-                        <b>Duration: </b>21s
+                        <b>Duration: </b>13s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestScrollBy_afterMethod_byStatus_passed_PASS30_row"
+            <tr id="abc.TestStringformat_afterMethod_byStatus_passed_PASS22_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestScrollBy_afterMethod_byStatus_passed_PASS30_details')">afterMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestStringformat_afterMethod_byStatus_passed_PASS22_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:20:58</td>
-               <td nowrap="true" align="right">14 ms
+               <td nowrap="true">15:03:55</td>
+               <td nowrap="true" align="right">2s
                   
                </td>
                <td nowrap="true">
@@ -1203,34 +1271,376 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestScrollBy_afterMethod_byStatus_passed_PASS30_details"
+                  <div id="abc.TestStringformat_afterMethod_byStatus_passed_PASS22_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestScrollBy@196076f]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestStringformat@128f03]
                      </div>
                      <div>
-                        <b>Start time: </b>11:20:58
+                        <b>Start time: </b>15:03:55
                      </div>
                      <div>
-                        <b>End time: </b>11:20:58
+                        <b>End time: </b>15:03:57
                      </div>
                      <div>
-                        <b>Duration: </b>14 ms
+                        <b>Duration: </b>2s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestSelect_beforeMethod_byStatus_passed_PASS31_row"
+            <tr id="abc.TestAlert_beforeMethod_byStatus_passed_PASS23_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestSelect_beforeMethod_byStatus_passed_PASS31_details')">beforeMethod()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestAlert_beforeMethod_byStatus_passed_PASS23_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:20:58</td>
+               <td nowrap="true">15:00:08</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestAlert_beforeMethod_byStatus_passed_PASS23_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestAlert@1719d5b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:00:08
+                     </div>
+                     <div>
+                        <b>End time: </b>15:00:20
+                     </div>
+                     <div>
+                        <b>Duration: </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestAlert_testAlert_byStatus_passed_PASS24_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestAlert_testAlert_byStatus_passed_PASS24_details')">testAlert()</a>
+               </td>
+               <td nowrap="true">15:00:20</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestAlert_testAlert_byStatus_passed_PASS24_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testAlert
+                     </div>
+                     <div>
+                        <b>Signature: </b>testAlert()[pri:0, instance:abc.TestAlert@1719d5b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:00:20
+                     </div>
+                     <div>
+                        <b>End time: </b>15:00:24
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestAlert_afterMethod_byStatus_passed_PASS25_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestAlert_afterMethod_byStatus_passed_PASS25_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">15:00:24</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestAlert_afterMethod_byStatus_passed_PASS25_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestAlert@1719d5b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:00:24
+                     </div>
+                     <div>
+                        <b>End time: </b>15:00:25
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestActions_beforeMethod_byStatus_passed_PASS26_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestActions_beforeMethod_byStatus_passed_PASS26_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">14:59:39</td>
+               <td nowrap="true" align="right">12s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestActions_beforeMethod_byStatus_passed_PASS26_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestActions@548719]
+                     </div>
+                     <div>
+                        <b>Start time: </b>14:59:39
+                     </div>
+                     <div>
+                        <b>End time: </b>14:59:52
+                     </div>
+                     <div>
+                        <b>Duration: </b>12s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestActions_testActions_byStatus_passed_PASS27_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestActions_testActions_byStatus_passed_PASS27_details')">testActions()</a>
+               </td>
+               <td nowrap="true">14:59:52</td>
+               <td nowrap="true" align="right">12s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestActions_testActions_byStatus_passed_PASS27_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testActions
+                     </div>
+                     <div>
+                        <b>Signature: </b>testActions()[pri:0, instance:abc.TestActions@548719]
+                     </div>
+                     <div>
+                        <b>Start time: </b>14:59:52
+                     </div>
+                     <div>
+                        <b>End time: </b>15:00:05
+                     </div>
+                     <div>
+                        <b>Duration: </b>12s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestActions_afterMethod_byStatus_passed_PASS28_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestActions_afterMethod_byStatus_passed_PASS28_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">15:00:05</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestActions_afterMethod_byStatus_passed_PASS28_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestActions@548719]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:00:05
+                     </div>
+                     <div>
+                        <b>End time: </b>15:00:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestCanvas_beforeMethod_byStatus_passed_PASS29_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestCanvas_beforeMethod_byStatus_passed_PASS29_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">15:00:25</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestCanvas_beforeMethod_byStatus_passed_PASS29_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestCanvas@11c635]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:00:25
+                     </div>
+                     <div>
+                        <b>End time: </b>15:00:36
+                     </div>
+                     <div>
+                        <b>Duration: </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestCanvas_canvas_byStatus_passed_PASS30_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestCanvas_canvas_byStatus_passed_PASS30_details')">canvas()</a>
+               </td>
+               <td nowrap="true">15:00:36</td>
+               <td nowrap="true" align="right">11s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestCanvas_canvas_byStatus_passed_PASS30_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>canvas
+                     </div>
+                     <div>
+                        <b>Signature: </b>canvas()[pri:0, instance:abc.TestCanvas@11c635]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:00:36
+                     </div>
+                     <div>
+                        <b>End time: </b>15:00:48
+                     </div>
+                     <div>
+                        <b>Duration: </b>11s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestCanvas_afterMethod_byStatus_passed_PASS31_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestCanvas_afterMethod_byStatus_passed_PASS31_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">15:00:48</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestCanvas_afterMethod_byStatus_passed_PASS31_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestCanvas@11c635]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:00:48
+                     </div>
+                     <div>
+                        <b>End time: </b>15:00:51
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestSelect_beforeMethod_byStatus_passed_PASS32_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestSelect_beforeMethod_byStatus_passed_PASS32_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">15:03:18</td>
                <td nowrap="true" align="right">14s
                   
                </td>
@@ -1241,60 +1651,22 @@
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestSelect_beforeMethod_byStatus_passed_PASS31_details"
+                  <div id="abc.TestSelect_beforeMethod_byStatus_passed_PASS32_details"
                        class="testMethodDetails">
                      <div>
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestSelect@c221d7]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestSelect@5dfb22]
                      </div>
                      <div>
-                        <b>Start time: </b>11:20:58
+                        <b>Start time: </b>15:03:18
                      </div>
                      <div>
-                        <b>End time: </b>11:21:13
+                        <b>End time: </b>15:03:33
                      </div>
                      <div>
                         <b>Duration: </b>14s
-                        
-                     </div>
-                  </div>
-               </td>
-            </tr>
-            <tr></tr>
-            <tr id="abc.TestSelect_test_byStatus_passed_PASS32_row"
-                class="testMethodStatusPASS">
-               <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestSelect_test_byStatus_passed_PASS32_details')">test()</a>
-               </td>
-               <td nowrap="true">11:21:13</td>
-               <td nowrap="true" align="right">5s
-                  
-               </td>
-               <td nowrap="true">
-                   
-                  
-               </td>
-            </tr>
-            <tr>
-               <td colspan="4" class="detailsBox">
-                  <div id="abc.TestSelect_test_byStatus_passed_PASS32_details"
-                       class="testMethodDetails">
-                     <div>
-                        <b>Name: </b>test
-                     </div>
-                     <div>
-                        <b>Signature: </b>test()[pri:0, instance:abc.TestSelect@c221d7]
-                     </div>
-                     <div>
-                        <b>Start time: </b>11:21:13
-                     </div>
-                     <div>
-                        <b>End time: </b>11:21:18
-                     </div>
-                     <div>
-                        <b>Duration: </b>5s
                         
                      </div>
                   </div>
@@ -1306,8 +1678,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestSelect_afterMethod_byStatus_passed_PASS33_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:21:18</td>
-               <td nowrap="true" align="right">953 ms
+               <td nowrap="true">15:03:33</td>
+               <td nowrap="true" align="right">2s
                   
                </td>
                <td nowrap="true">
@@ -1323,16 +1695,244 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestSelect@c221d7]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestSelect@5dfb22]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:18
+                        <b>Start time: </b>15:03:33
                      </div>
                      <div>
-                        <b>End time: </b>11:21:19
+                        <b>End time: </b>15:03:35
                      </div>
                      <div>
-                        <b>Duration: </b>953 ms
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestScrollBy_beforeMethod_byStatus_passed_PASS34_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestScrollBy_beforeMethod_byStatus_passed_PASS34_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">15:02:48</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestScrollBy_beforeMethod_byStatus_passed_PASS34_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestScrollBy@f5c8fb]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:02:48
+                     </div>
+                     <div>
+                        <b>End time: </b>15:02:56
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestScrollBy_ScrollBy_byStatus_passed_PASS35_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestScrollBy_ScrollBy_byStatus_passed_PASS35_details')">ScrollBy()</a>
+               </td>
+               <td nowrap="true">15:02:56</td>
+               <td nowrap="true" align="right">22s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestScrollBy_ScrollBy_byStatus_passed_PASS35_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>ScrollBy
+                     </div>
+                     <div>
+                        <b>Signature: </b>ScrollBy()[pri:0, instance:abc.TestScrollBy@f5c8fb]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:02:56
+                     </div>
+                     <div>
+                        <b>End time: </b>15:03:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>22s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestScrollBy_afterMethod_byStatus_passed_PASS36_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestScrollBy_afterMethod_byStatus_passed_PASS36_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">15:03:18</td>
+               <td nowrap="true" align="right">13 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestScrollBy_afterMethod_byStatus_passed_PASS36_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestScrollBy@f5c8fb]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:03:18
+                     </div>
+                     <div>
+                        <b>End time: </b>15:03:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>13 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestDataDrive_beforeMethod_byStatus_passed_PASS37_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDataDrive_beforeMethod_byStatus_passed_PASS37_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">15:04:47</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDataDrive_beforeMethod_byStatus_passed_PASS37_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestDataDrive@1549f0e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:04:47
+                     </div>
+                     <div>
+                        <b>End time: </b>15:04:53
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestDataDrive_dataDrive_byStatus_passed_PASS38_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDataDrive_dataDrive_byStatus_passed_PASS38_details')">dataDrive()</a>
+               </td>
+               <td nowrap="true">15:04:53</td>
+               <td nowrap="true" align="right">14s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDataDrive_dataDrive_byStatus_passed_PASS38_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>dataDrive
+                     </div>
+                     <div>
+                        <b>Signature: </b>dataDrive()[pri:0, instance:abc.TestDataDrive@1549f0e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:04:53
+                     </div>
+                     <div>
+                        <b>End time: </b>15:05:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>14s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestDataDrive_afterMethod_byStatus_passed_PASS39_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDataDrive_afterMethod_byStatus_passed_PASS39_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">15:05:08</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDataDrive_afterMethod_byStatus_passed_PASS39_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestDataDrive@1549f0e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:05:08
+                     </div>
+                     <div>
+                        <b>End time: </b>15:05:09
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
                         
                      </div>
                   </div>
@@ -1359,8 +1959,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestActions_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:16:57</td>
-               <td nowrap="true" align="right">25s
+               <td nowrap="true">14:59:39</td>
+               <td nowrap="true" align="right">12s
                   
                </td>
                <td nowrap="true">
@@ -1376,16 +1976,16 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestActions@ca677f]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestActions@548719]
                      </div>
                      <div>
-                        <b>Start time: </b>11:16:57
+                        <b>Start time: </b>14:59:39
                      </div>
                      <div>
-                        <b>End time: </b>11:17:22
+                        <b>End time: </b>14:59:52
                      </div>
                      <div>
-                        <b>Duration: </b>25s
+                        <b>Duration: </b>12s
                         
                      </div>
                   </div>
@@ -1396,8 +1996,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestActions_testActions_byClass_PASS2_details')">testActions()</a>
                </td>
-               <td nowrap="true">11:17:22</td>
-               <td nowrap="true" align="right">21s
+               <td nowrap="true">14:59:52</td>
+               <td nowrap="true" align="right">12s
                   
                </td>
                <td nowrap="true">
@@ -1413,16 +2013,16 @@
                         <b>Name: </b>testActions
                      </div>
                      <div>
-                        <b>Signature: </b>testActions()[pri:0, instance:abc.TestActions@ca677f]
+                        <b>Signature: </b>testActions()[pri:0, instance:abc.TestActions@548719]
                      </div>
                      <div>
-                        <b>Start time: </b>11:17:22
+                        <b>Start time: </b>14:59:52
                      </div>
                      <div>
-                        <b>End time: </b>11:17:44
+                        <b>End time: </b>15:00:05
                      </div>
                      <div>
-                        <b>Duration: </b>21s
+                        <b>Duration: </b>12s
                         
                      </div>
                   </div>
@@ -1434,8 +2034,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestActions_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:17:44</td>
-               <td nowrap="true" align="right">2s
+               <td nowrap="true">15:00:05</td>
+               <td nowrap="true" align="right">3s
                   
                </td>
                <td nowrap="true">
@@ -1451,16 +2051,16 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestActions@ca677f]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestActions@548719]
                      </div>
                      <div>
-                        <b>Start time: </b>11:17:44
+                        <b>Start time: </b>15:00:05
                      </div>
                      <div>
-                        <b>End time: </b>11:17:46
+                        <b>End time: </b>15:00:08
                      </div>
                      <div>
-                        <b>Duration: </b>2s
+                        <b>Duration: </b>3s
                         
                      </div>
                   </div>
@@ -1486,8 +2086,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestAlert_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:17:46</td>
-               <td nowrap="true" align="right">14s
+               <td nowrap="true">15:00:08</td>
+               <td nowrap="true" align="right">11s
                   
                </td>
                <td nowrap="true">
@@ -1502,16 +2102,16 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestAlert@50d7c5]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestAlert@1719d5b]
                      </div>
                      <div>
-                        <b>Start time: </b>11:17:46
+                        <b>Start time: </b>15:00:08
                      </div>
                      <div>
-                        <b>End time: </b>11:18:01
+                        <b>End time: </b>15:00:20
                      </div>
                      <div>
-                        <b>Duration: </b>14s
+                        <b>Duration: </b>11s
                         
                      </div>
                   </div>
@@ -1522,8 +2122,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestAlert_testAlert_byClass_PASS2_details')">testAlert()</a>
                </td>
-               <td nowrap="true">11:18:01</td>
-               <td nowrap="true" align="right">3s
+               <td nowrap="true">15:00:20</td>
+               <td nowrap="true" align="right">4s
                   
                </td>
                <td nowrap="true">
@@ -1538,16 +2138,16 @@
                         <b>Name: </b>testAlert
                      </div>
                      <div>
-                        <b>Signature: </b>testAlert()[pri:0, instance:abc.TestAlert@50d7c5]
+                        <b>Signature: </b>testAlert()[pri:0, instance:abc.TestAlert@1719d5b]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:01
+                        <b>Start time: </b>15:00:20
                      </div>
                      <div>
-                        <b>End time: </b>11:18:05
+                        <b>End time: </b>15:00:24
                      </div>
                      <div>
-                        <b>Duration: </b>3s
+                        <b>Duration: </b>4s
                         
                      </div>
                   </div>
@@ -1559,7 +2159,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestAlert_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:18:05</td>
+               <td nowrap="true">15:00:24</td>
                <td nowrap="true" align="right">1s
                   
                </td>
@@ -1575,13 +2175,13 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestAlert@50d7c5]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestAlert@1719d5b]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:05
+                        <b>Start time: </b>15:00:24
                      </div>
                      <div>
-                        <b>End time: </b>11:18:06
+                        <b>End time: </b>15:00:25
                      </div>
                      <div>
                         <b>Duration: </b>1s
@@ -1610,8 +2210,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestCanvas_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:18:06</td>
-               <td nowrap="true" align="right">15s
+               <td nowrap="true">15:00:25</td>
+               <td nowrap="true" align="right">11s
                   
                </td>
                <td nowrap="true">
@@ -1627,16 +2227,16 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestCanvas@185c6ac]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestCanvas@11c635]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:06
+                        <b>Start time: </b>15:00:25
                      </div>
                      <div>
-                        <b>End time: </b>11:18:22
+                        <b>End time: </b>15:00:36
                      </div>
                      <div>
-                        <b>Duration: </b>15s
+                        <b>Duration: </b>11s
                         
                      </div>
                   </div>
@@ -1647,7 +2247,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestCanvas_canvas_byClass_PASS2_details')">canvas()</a>
                </td>
-               <td nowrap="true">11:18:22</td>
+               <td nowrap="true">15:00:36</td>
                <td nowrap="true" align="right">11s
                   
                </td>
@@ -1663,13 +2263,13 @@
                         <b>Name: </b>canvas
                      </div>
                      <div>
-                        <b>Signature: </b>canvas()[pri:0, instance:abc.TestCanvas@185c6ac]
+                        <b>Signature: </b>canvas()[pri:0, instance:abc.TestCanvas@11c635]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:22
+                        <b>Start time: </b>15:00:36
                      </div>
                      <div>
-                        <b>End time: </b>11:18:33
+                        <b>End time: </b>15:00:48
                      </div>
                      <div>
                         <b>Duration: </b>11s
@@ -1684,8 +2284,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestCanvas_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:18:33</td>
-               <td nowrap="true" align="right">991 ms
+               <td nowrap="true">15:00:48</td>
+               <td nowrap="true" align="right">2s
                   
                </td>
                <td nowrap="true">
@@ -1700,22 +2300,580 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestCanvas@185c6ac]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestCanvas@11c635]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:33
+                        <b>Start time: </b>15:00:48
                      </div>
                      <div>
-                        <b>End time: </b>11:18:34
+                        <b>End time: </b>15:00:51
                      </div>
                      <div>
-                        <b>Duration: </b>991 ms
+                        <b>Duration: </b>2s
                         
                      </div>
                   </div>
                </td>
             </tr>
             <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">abc.TestDataBase</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="abc.TestDataBase_beforeMethod_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDataBase_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">15:04:21</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDataBase_beforeMethod_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestDataBase@1c17a8c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:04:21
+                     </div>
+                     <div>
+                        <b>End time: </b>15:04:28
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestDataBase_dataBase_byClass_PASS2_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDataBase_dataBase_byClass_PASS2_details')">dataBase()</a>
+               </td>
+               <td nowrap="true">15:04:28</td>
+               <td nowrap="true" align="right">17s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDataBase_dataBase_byClass_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>dataBase
+                     </div>
+                     <div>
+                        <b>Signature: </b>dataBase()[pri:0, instance:abc.TestDataBase@1c17a8c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:04:28
+                     </div>
+                     <div>
+                        <b>End time: </b>15:04:46
+                     </div>
+                     <div>
+                        <b>Duration: </b>17s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestDataBase_afterMethod_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDataBase_afterMethod_byClass_PASS3_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">15:04:46</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDataBase_afterMethod_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestDataBase@1c17a8c]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:04:46
+                     </div>
+                     <div>
+                        <b>End time: </b>15:04:47
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">abc.TestDataDrive</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="abc.TestDataDrive_beforeMethod_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDataDrive_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">15:04:47</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDataDrive_beforeMethod_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestDataDrive@1549f0e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:04:47
+                     </div>
+                     <div>
+                        <b>End time: </b>15:04:53
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestDataDrive_dataDrive_byClass_PASS2_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDataDrive_dataDrive_byClass_PASS2_details')">dataDrive()</a>
+               </td>
+               <td nowrap="true">15:04:53</td>
+               <td nowrap="true" align="right">14s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDataDrive_dataDrive_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>dataDrive
+                     </div>
+                     <div>
+                        <b>Signature: </b>dataDrive()[pri:0, instance:abc.TestDataDrive@1549f0e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:04:53
+                     </div>
+                     <div>
+                        <b>End time: </b>15:05:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>14s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestDataDrive_afterMethod_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDataDrive_afterMethod_byClass_PASS3_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">15:05:08</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDataDrive_afterMethod_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestDataDrive@1549f0e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:05:08
+                     </div>
+                     <div>
+                        <b>End time: </b>15:05:09
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">abc.TestDownLoad</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="abc.TestDownLoad_beforeMethod_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDownLoad_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
+               </td>
+               <td nowrap="true">15:05:09</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDownLoad_beforeMethod_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestDownLoad@9652dd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:05:09
+                     </div>
+                     <div>
+                        <b>End time: </b>15:05:19
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="abc.TestDownLoad_downLoad_byClass_FAIL2_row" class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDownLoad_downLoad_byClass_FAIL2_details')">downLoad()</a>
+               </td>
+               <td nowrap="true">15:05:19</td>
+               <td nowrap="true" align="right">13m
+                  20s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('abc.TestDownLoad_downLoad_byClass_FAIL2_exception')">org.openqa.selenium.remote.UnreachableBrowserException: 
+                     Error communicating with the remote browser. It may have died.
+                     Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                     System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                     '1.7.0_79'
+                     Driver info: driver.version: RemoteWebDriver
+                     Session ID: 8346d90f-7d05-4a6b-9102-1ca590e16da9
+                     Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                     browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                     applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDownLoad_downLoad_byClass_FAIL2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>downLoad
+                     </div>
+                     <div>
+                        <b>Signature: </b>downLoad()[pri:0, instance:abc.TestDownLoad@9652dd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:05:19
+                     </div>
+                     <div>
+                        <b>End time: </b>15:18:40
+                     </div>
+                     <div>
+                        <b>Duration: </b>13m
+                        20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDownLoad_downLoad_byClass_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.7.0_79'
+                        Driver info: driver.version: RemoteWebDriver
+                        Session ID: 8346d90f-7d05-4a6b-9102-1ca590e16da9
+                        Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                        browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                        applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+                        	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+                        	at abc.pages.BaiduPage.anzhuoxiazai(Unknown Source)
+                        	at abc.TestDownLoad.downLoad(Unknown Source)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                        Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused:
+                        connect
+                        	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+                        	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+                        	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+                        	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+                        	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+                        	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+                        	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+                        	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+                        	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+                        	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+                        	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+                        	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+                        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+                        	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+                        	... 29 more
+                        Caused by: java.net.ConnectException: Connection refused: connect
+                        	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+                        	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+                        	at java.net.PlainSocketImpl.connect(Unknown Source)
+                        	at java.net.SocksSocketImpl.connect(Unknown Source)
+                        	at java.net.Socket.connect(Unknown Source)
+                        	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+                        	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+                        	... 44 more
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="abc.TestDownLoad_afterMethod_byClass_FAIL3_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('abc.TestDownLoad_afterMethod_byClass_FAIL3_details')">afterMethod()</a>
+               </td>
+               <td nowrap="true">15:18:40</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('abc.TestDownLoad_afterMethod_byClass_FAIL3_exception')">org.openqa.selenium.remote.UnreachableBrowserException: 
+                     Error communicating with the remote browser. It may have died.
+                     Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                     System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                     '1.7.0_79'
+                     Driver info: driver.version: RemoteWebDriver
+                     Session ID: 8346d90f-7d05-4a6b-9102-1ca590e16da9
+                     Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                     browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                     applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDownLoad_afterMethod_byClass_FAIL3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterMethod
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestDownLoad@9652dd]
+                     </div>
+                     <div>
+                        <b>Start time: </b>15:18:40
+                     </div>
+                     <div>
+                        <b>End time: </b>15:18:40
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestDownLoad_afterMethod_byClass_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.7.0_79'
+                        Driver info: driver.version: RemoteWebDriver
+                        Session ID: 8346d90f-7d05-4a6b-9102-1ca590e16da9
+                        Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                        browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                        applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
+                        	at abc.TestDownLoad.afterMethod(Unknown Source)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                        Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused:
+                        connect
+                        	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+                        	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+                        	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+                        	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+                        	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+                        	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+                        	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+                        	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+                        	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+                        	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+                        	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+                        	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+                        	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+                        	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+                        	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+                        	... 28 more
+                        Caused by: java.net.ConnectException: Connection refused: connect
+                        	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+                        	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+                        	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+                        	at java.net.PlainSocketImpl.connect(Unknown Source)
+                        	at java.net.SocksSocketImpl.connect(Unknown Source)
+                        	at java.net.Socket.connect(Unknown Source)
+                        	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+                        	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+                        	... 43 more
+                     </pre>
+                  </div>
+               </td>
+            </tr>
          </table>
          <br></br>
          <table class="testMethodsTable" cellpadding="0" cellspacing="0">
@@ -1735,7 +2893,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestInterFace_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:18:34</td>
+               <td nowrap="true">15:00:51</td>
                <td nowrap="true" align="right">7s
                   
                </td>
@@ -1752,13 +2910,13 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestInterFace@1b664bb]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestInterFace@ebc2a2]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:34
+                        <b>Start time: </b>15:00:51
                      </div>
                      <div>
-                        <b>End time: </b>11:18:41
+                        <b>End time: </b>15:00:58
                      </div>
                      <div>
                         <b>Duration: </b>7s
@@ -1772,8 +2930,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestInterFace_login_byClass_PASS2_details')">login()</a>
                </td>
-               <td nowrap="true">11:18:41</td>
-               <td nowrap="true" align="right">15s
+               <td nowrap="true">15:00:58</td>
+               <td nowrap="true" align="right">8s
                   
                </td>
                <td nowrap="true">
@@ -1788,16 +2946,16 @@
                         <b>Name: </b>login
                      </div>
                      <div>
-                        <b>Signature: </b>login()[pri:0, instance:abc.TestInterFace@1b664bb]
+                        <b>Signature: </b>login()[pri:0, instance:abc.TestInterFace@ebc2a2]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:41
+                        <b>Start time: </b>15:00:58
                      </div>
                      <div>
-                        <b>End time: </b>11:18:57
+                        <b>End time: </b>15:01:07
                      </div>
                      <div>
-                        <b>Duration: </b>15s
+                        <b>Duration: </b>8s
                         
                      </div>
                   </div>
@@ -1809,8 +2967,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestInterFace_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:18:57</td>
-               <td nowrap="true" align="right">1s
+               <td nowrap="true">15:01:07</td>
+               <td nowrap="true" align="right">2s
                   
                </td>
                <td nowrap="true">
@@ -1826,16 +2984,16 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestInterFace@1b664bb]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestInterFace@ebc2a2]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:57
+                        <b>Start time: </b>15:01:07
                      </div>
                      <div>
-                        <b>End time: </b>11:18:58
+                        <b>End time: </b>15:01:09
                      </div>
                      <div>
-                        <b>Duration: </b>1s
+                        <b>Duration: </b>2s
                         
                      </div>
                   </div>
@@ -1861,7 +3019,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestJScript_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:18:58</td>
+               <td nowrap="true">15:01:09</td>
                <td nowrap="true" align="right">11s
                   
                </td>
@@ -1878,13 +3036,13 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestJScript@18f57d2]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestJScript@374956]
                      </div>
                      <div>
-                        <b>Start time: </b>11:18:58
+                        <b>Start time: </b>15:01:09
                      </div>
                      <div>
-                        <b>End time: </b>11:19:09
+                        <b>End time: </b>15:01:21
                      </div>
                      <div>
                         <b>Duration: </b>11s
@@ -1898,7 +3056,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestJScript_jscript_byClass_PASS2_details')">jscript()</a>
                </td>
-               <td nowrap="true">11:19:09</td>
+               <td nowrap="true">15:01:21</td>
                <td nowrap="true" align="right">16s
                   
                </td>
@@ -1914,13 +3072,13 @@
                         <b>Name: </b>jscript
                      </div>
                      <div>
-                        <b>Signature: </b>jscript()[pri:0, instance:abc.TestJScript@18f57d2]
+                        <b>Signature: </b>jscript()[pri:0, instance:abc.TestJScript@374956]
                      </div>
                      <div>
-                        <b>Start time: </b>11:19:09
+                        <b>Start time: </b>15:01:21
                      </div>
                      <div>
-                        <b>End time: </b>11:19:26
+                        <b>End time: </b>15:01:37
                      </div>
                      <div>
                         <b>Duration: </b>16s
@@ -1935,8 +3093,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestJScript_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:19:26</td>
-               <td nowrap="true" align="right">870 ms
+               <td nowrap="true">15:01:37</td>
+               <td nowrap="true" align="right">2s
                   
                </td>
                <td nowrap="true">
@@ -1952,16 +3110,16 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestJScript@18f57d2]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestJScript@374956]
                      </div>
                      <div>
-                        <b>Start time: </b>11:19:26
+                        <b>Start time: </b>15:01:37
                      </div>
                      <div>
-                        <b>End time: </b>11:19:27
+                        <b>End time: </b>15:01:40
                      </div>
                      <div>
-                        <b>Duration: </b>870 ms
+                        <b>Duration: </b>2s
                         
                      </div>
                   </div>
@@ -1987,7 +3145,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestKeyBoard_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:19:27</td>
+               <td nowrap="true">15:01:40</td>
                <td nowrap="true" align="right">12s
                   
                </td>
@@ -2004,13 +3162,13 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestKeyBoard@1ceb670]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestKeyBoard@1afebc9]
                      </div>
                      <div>
-                        <b>Start time: </b>11:19:27
+                        <b>Start time: </b>15:01:40
                      </div>
                      <div>
-                        <b>End time: </b>11:19:39
+                        <b>End time: </b>15:01:53
                      </div>
                      <div>
                         <b>Duration: </b>12s
@@ -2024,7 +3182,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestKeyBoard_keyBoard_byClass_PASS2_details')">keyBoard()</a>
                </td>
-               <td nowrap="true">11:19:39</td>
+               <td nowrap="true">15:01:53</td>
                <td nowrap="true" align="right">12s
                   
                </td>
@@ -2040,13 +3198,13 @@
                         <b>Name: </b>keyBoard
                      </div>
                      <div>
-                        <b>Signature: </b>keyBoard()[pri:0, instance:abc.TestKeyBoard@1ceb670]
+                        <b>Signature: </b>keyBoard()[pri:0, instance:abc.TestKeyBoard@1afebc9]
                      </div>
                      <div>
-                        <b>Start time: </b>11:19:39
+                        <b>Start time: </b>15:01:53
                      </div>
                      <div>
-                        <b>End time: </b>11:19:51
+                        <b>End time: </b>15:02:06
                      </div>
                      <div>
                         <b>Duration: </b>12s
@@ -2061,8 +3219,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestKeyBoard_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:19:51</td>
-               <td nowrap="true" align="right">913 ms
+               <td nowrap="true">15:02:06</td>
+               <td nowrap="true" align="right">2s
                   
                </td>
                <td nowrap="true">
@@ -2078,16 +3236,16 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestKeyBoard@1ceb670]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestKeyBoard@1afebc9]
                      </div>
                      <div>
-                        <b>Start time: </b>11:19:51
+                        <b>Start time: </b>15:02:06
                      </div>
                      <div>
-                        <b>End time: </b>11:19:52
+                        <b>End time: </b>15:02:08
                      </div>
                      <div>
-                        <b>Duration: </b>913 ms
+                        <b>Duration: </b>2s
                         
                      </div>
                   </div>
@@ -2113,7 +3271,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestPageFactory_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:19:52</td>
+               <td nowrap="true">15:02:08</td>
                <td nowrap="true" align="right">7s
                   
                </td>
@@ -2130,13 +3288,13 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestPageFactory@2b7711]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestPageFactory@a0fbd6]
                      </div>
                      <div>
-                        <b>Start time: </b>11:19:52
+                        <b>Start time: </b>15:02:08
                      </div>
                      <div>
-                        <b>End time: </b>11:19:59
+                        <b>End time: </b>15:02:16
                      </div>
                      <div>
                         <b>Duration: </b>7s
@@ -2151,8 +3309,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestPageFactory_Pagefactory_byClass_PASS2_details')">Pagefactory()</a>
                </td>
-               <td nowrap="true">11:19:59</td>
-               <td nowrap="true" align="right">29s
+               <td nowrap="true">15:02:16</td>
+               <td nowrap="true" align="right">28s
                   
                </td>
                <td nowrap="true">
@@ -2168,16 +3326,16 @@
                         <b>Name: </b>Pagefactory
                      </div>
                      <div>
-                        <b>Signature: </b>Pagefactory()[pri:0, instance:abc.TestPageFactory@2b7711]
+                        <b>Signature: </b>Pagefactory()[pri:0, instance:abc.TestPageFactory@a0fbd6]
                      </div>
                      <div>
-                        <b>Start time: </b>11:19:59
+                        <b>Start time: </b>15:02:16
                      </div>
                      <div>
-                        <b>End time: </b>11:20:28
+                        <b>End time: </b>15:02:44
                      </div>
                      <div>
-                        <b>Duration: </b>29s
+                        <b>Duration: </b>28s
                         
                      </div>
                   </div>
@@ -2189,8 +3347,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestPageFactory_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:20:28</td>
-               <td nowrap="true" align="right">1s
+               <td nowrap="true">15:02:44</td>
+               <td nowrap="true" align="right">4s
                   
                </td>
                <td nowrap="true">
@@ -2206,16 +3364,16 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestPageFactory@2b7711]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestPageFactory@a0fbd6]
                      </div>
                      <div>
-                        <b>Start time: </b>11:20:28
+                        <b>Start time: </b>15:02:44
                      </div>
                      <div>
-                        <b>End time: </b>11:20:30
+                        <b>End time: </b>15:02:48
                      </div>
                      <div>
-                        <b>Duration: </b>1s
+                        <b>Duration: </b>4s
                         
                      </div>
                   </div>
@@ -2241,8 +3399,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestScrollBy_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:20:30</td>
-               <td nowrap="true" align="right">6s
+               <td nowrap="true">15:02:48</td>
+               <td nowrap="true" align="right">7s
                   
                </td>
                <td nowrap="true">
@@ -2258,16 +3416,16 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestScrollBy@196076f]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestScrollBy@f5c8fb]
                      </div>
                      <div>
-                        <b>Start time: </b>11:20:30
+                        <b>Start time: </b>15:02:48
                      </div>
                      <div>
-                        <b>End time: </b>11:20:37
+                        <b>End time: </b>15:02:56
                      </div>
                      <div>
-                        <b>Duration: </b>6s
+                        <b>Duration: </b>7s
                         
                      </div>
                   </div>
@@ -2278,8 +3436,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestScrollBy_ScrollBy_byClass_PASS2_details')">ScrollBy()</a>
                </td>
-               <td nowrap="true">11:20:37</td>
-               <td nowrap="true" align="right">21s
+               <td nowrap="true">15:02:56</td>
+               <td nowrap="true" align="right">22s
                   
                </td>
                <td nowrap="true">
@@ -2294,16 +3452,16 @@
                         <b>Name: </b>ScrollBy
                      </div>
                      <div>
-                        <b>Signature: </b>ScrollBy()[pri:0, instance:abc.TestScrollBy@196076f]
+                        <b>Signature: </b>ScrollBy()[pri:0, instance:abc.TestScrollBy@f5c8fb]
                      </div>
                      <div>
-                        <b>Start time: </b>11:20:37
+                        <b>Start time: </b>15:02:56
                      </div>
                      <div>
-                        <b>End time: </b>11:20:58
+                        <b>End time: </b>15:03:18
                      </div>
                      <div>
-                        <b>Duration: </b>21s
+                        <b>Duration: </b>22s
                         
                      </div>
                   </div>
@@ -2315,8 +3473,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestScrollBy_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:20:58</td>
-               <td nowrap="true" align="right">14 ms
+               <td nowrap="true">15:03:18</td>
+               <td nowrap="true" align="right">13 ms
                   
                </td>
                <td nowrap="true">
@@ -2332,16 +3490,16 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestScrollBy@196076f]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestScrollBy@f5c8fb]
                      </div>
                      <div>
-                        <b>Start time: </b>11:20:58
+                        <b>Start time: </b>15:03:18
                      </div>
                      <div>
-                        <b>End time: </b>11:20:58
+                        <b>End time: </b>15:03:18
                      </div>
                      <div>
-                        <b>Duration: </b>14 ms
+                        <b>Duration: </b>13 ms
                         
                      </div>
                   </div>
@@ -2367,7 +3525,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestSelect_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:20:58</td>
+               <td nowrap="true">15:03:18</td>
                <td nowrap="true" align="right">14s
                   
                </td>
@@ -2384,13 +3542,13 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestSelect@c221d7]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestSelect@5dfb22]
                      </div>
                      <div>
-                        <b>Start time: </b>11:20:58
+                        <b>Start time: </b>15:03:18
                      </div>
                      <div>
-                        <b>End time: </b>11:21:13
+                        <b>End time: </b>15:03:33
                      </div>
                      <div>
                         <b>Duration: </b>14s
@@ -2400,49 +3558,128 @@
                </td>
             </tr>
             <tr></tr>
-            <tr id="abc.TestSelect_test_byClass_PASS2_row" class="testMethodStatusPASS">
+            <tr id="abc.TestSelect_test_byClass_FAIL2_row" class="testMethodStatusFAIL">
                <td width="100%" class="firstMethodCell">
-                  <a onclick="toggleDetailsVisibility('abc.TestSelect_test_byClass_PASS2_details')">test()</a>
+                  <a onclick="toggleDetailsVisibility('abc.TestSelect_test_byClass_FAIL2_details')">test()</a>
                </td>
-               <td nowrap="true">11:21:13</td>
-               <td nowrap="true" align="right">5s
+               <td nowrap="true">15:03:33</td>
+               <td nowrap="true" align="right">158 ms
                   
                </td>
                <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('abc.TestSelect_test_byClass_FAIL2_exception')">org.openqa.selenium.NoSuchElementException: 
+                     Unable to locate element: {"method":"id","selector":"J_city_switch"}
+                     Command duration or timeout: 35 milliseconds
+                     For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                     Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                     System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                     '1.7.0_79'
+                     *** Element info: {Using=id, value=J_city_switch}
+                     Session ID: 3218c234-2886-43c3-b650-f67377130cd8
+                     Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                     Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                     browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                     applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                     
+                  </a>
                    
                   
                </td>
             </tr>
             <tr>
                <td colspan="4" class="detailsBox">
-                  <div id="abc.TestSelect_test_byClass_PASS2_details" class="testMethodDetails">
+                  <div id="abc.TestSelect_test_byClass_FAIL2_details" class="testMethodDetails">
                      <div>
                         <b>Name: </b>test
                      </div>
                      <div>
-                        <b>Signature: </b>test()[pri:0, instance:abc.TestSelect@c221d7]
+                        <b>Signature: </b>test()[pri:0, instance:abc.TestSelect@5dfb22]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:13
+                        <b>Start time: </b>15:03:33
                      </div>
                      <div>
-                        <b>End time: </b>11:21:18
+                        <b>End time: </b>15:03:33
                      </div>
                      <div>
-                        <b>Duration: </b>5s
+                        <b>Duration: </b>158 ms
                         
                      </div>
                   </div>
                </td>
             </tr>
-            <tr></tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="abc.TestSelect_test_byClass_FAIL2_exception" class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"J_city_switch"}
+                        Command duration or timeout: 35 milliseconds
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.7.0_79'
+                        *** Element info: {Using=id, value=J_city_switch}
+                        Session ID: 3218c234-2886-43c3-b650-f67377130cd8
+                        Driver info: org.openqa.selenium.firefox.FirefoxDriver
+                        Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true,
+                        browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true,
+                        applicationCacheEnabled=true, takesScreenshot=true, version=38.5.2}]
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+                        	at org.openqa.selenium.By$ById.findElement(By.java:218)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+                        	at abc.TestSelect.test(Unknown Source)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                        Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"J_city_switch"}
+                        For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                        Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 16:57:40'
+                        System info: host: 'Administrator', ip: '192.168.1.110', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version:
+                        '1.7.0_79'
+                        Driver info: driver.version: unknown
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/sunjian/AppData/Local/Temp/anonymous3989103178006502208webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+                        	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/sunjian/AppData/Local/Temp/anonymous3989103178006502208webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/sunjian/AppData/Local/Temp/anonymous3989103178006502208webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/sunjian/AppData/Local/Temp/anonymous3989103178006502208webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+                        	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/sunjian/AppData/Local/Temp/anonymous3989103178006502208webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
             <tr id="abc.TestSelect_afterMethod_byClass_PASS3_row"
                 class="testMethodStatusPASS testMethodStatusCONF">
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestSelect_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:21:18</td>
-               <td nowrap="true" align="right">953 ms
+               <td nowrap="true">15:03:33</td>
+               <td nowrap="true" align="right">2s
                   
                </td>
                <td nowrap="true">
@@ -2457,16 +3694,16 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestSelect@c221d7]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestSelect@5dfb22]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:18
+                        <b>Start time: </b>15:03:33
                      </div>
                      <div>
-                        <b>End time: </b>11:21:19
+                        <b>End time: </b>15:03:35
                      </div>
                      <div>
-                        <b>Duration: </b>953 ms
+                        <b>Duration: </b>2s
                         
                      </div>
                   </div>
@@ -2492,7 +3729,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestStringformat_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:21:19</td>
+               <td nowrap="true">15:03:35</td>
                <td nowrap="true" align="right">6s
                   
                </td>
@@ -2509,13 +3746,13 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestStringformat@13be416]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestStringformat@128f03]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:19
+                        <b>Start time: </b>15:03:35
                      </div>
                      <div>
-                        <b>End time: </b>11:21:26
+                        <b>End time: </b>15:03:42
                      </div>
                      <div>
                         <b>Duration: </b>6s
@@ -2530,8 +3767,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestStringformat_Stringformat_byClass_PASS2_details')">Stringformat()</a>
                </td>
-               <td nowrap="true">11:21:26</td>
-               <td nowrap="true" align="right">14s
+               <td nowrap="true">15:03:42</td>
+               <td nowrap="true" align="right">13s
                   
                </td>
                <td nowrap="true">
@@ -2547,16 +3784,16 @@
                         <b>Name: </b>Stringformat
                      </div>
                      <div>
-                        <b>Signature: </b>Stringformat()[pri:0, instance:abc.TestStringformat@13be416]
+                        <b>Signature: </b>Stringformat()[pri:0, instance:abc.TestStringformat@128f03]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:26
+                        <b>Start time: </b>15:03:42
                      </div>
                      <div>
-                        <b>End time: </b>11:21:41
+                        <b>End time: </b>15:03:55
                      </div>
                      <div>
-                        <b>Duration: </b>14s
+                        <b>Duration: </b>13s
                         
                      </div>
                   </div>
@@ -2568,8 +3805,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestStringformat_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:21:41</td>
-               <td nowrap="true" align="right">1s
+               <td nowrap="true">15:03:55</td>
+               <td nowrap="true" align="right">2s
                   
                </td>
                <td nowrap="true">
@@ -2585,16 +3822,16 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestStringformat@13be416]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestStringformat@128f03]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:41
+                        <b>Start time: </b>15:03:55
                      </div>
                      <div>
-                        <b>End time: </b>11:21:42
+                        <b>End time: </b>15:03:57
                      </div>
                      <div>
-                        <b>Duration: </b>1s
+                        <b>Duration: </b>2s
                         
                      </div>
                   </div>
@@ -2620,8 +3857,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestWindows_beforeMethod_byClass_PASS1_details')">beforeMethod()</a>
                </td>
-               <td nowrap="true">11:21:42</td>
-               <td nowrap="true" align="right">9s
+               <td nowrap="true">15:03:57</td>
+               <td nowrap="true" align="right">12s
                   
                </td>
                <td nowrap="true">
@@ -2637,16 +3874,16 @@
                         <b>Name: </b>beforeMethod
                      </div>
                      <div>
-                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestWindows@fb8e1e]
+                        <b>Signature: </b>beforeMethod()[pri:0, instance:abc.TestWindows@6b2ab7]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:42
+                        <b>Start time: </b>15:03:57
                      </div>
                      <div>
-                        <b>End time: </b>11:21:51
+                        <b>End time: </b>15:04:10
                      </div>
                      <div>
-                        <b>Duration: </b>9s
+                        <b>Duration: </b>12s
                         
                      </div>
                   </div>
@@ -2657,8 +3894,8 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestWindows_windows_byClass_PASS2_details')">windows()</a>
                </td>
-               <td nowrap="true">11:21:51</td>
-               <td nowrap="true" align="right">16s
+               <td nowrap="true">15:04:10</td>
+               <td nowrap="true" align="right">9s
                   
                </td>
                <td nowrap="true">
@@ -2673,16 +3910,16 @@
                         <b>Name: </b>windows
                      </div>
                      <div>
-                        <b>Signature: </b>windows()[pri:0, instance:abc.TestWindows@fb8e1e]
+                        <b>Signature: </b>windows()[pri:0, instance:abc.TestWindows@6b2ab7]
                      </div>
                      <div>
-                        <b>Start time: </b>11:21:51
+                        <b>Start time: </b>15:04:10
                      </div>
                      <div>
-                        <b>End time: </b>11:22:07
+                        <b>End time: </b>15:04:19
                      </div>
                      <div>
-                        <b>Duration: </b>16s
+                        <b>Duration: </b>9s
                         
                      </div>
                   </div>
@@ -2694,7 +3931,7 @@
                <td width="100%" class="firstMethodCell">
                   <a onclick="toggleDetailsVisibility('abc.TestWindows_afterMethod_byClass_PASS3_details')">afterMethod()</a>
                </td>
-               <td nowrap="true">11:22:07</td>
+               <td nowrap="true">15:04:19</td>
                <td nowrap="true" align="right">2s
                   
                </td>
@@ -2711,13 +3948,13 @@
                         <b>Name: </b>afterMethod
                      </div>
                      <div>
-                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestWindows@fb8e1e]
+                        <b>Signature: </b>afterMethod()[pri:0, instance:abc.TestWindows@6b2ab7]
                      </div>
                      <div>
-                        <b>Start time: </b>11:22:07
+                        <b>Start time: </b>15:04:19
                      </div>
                      <div>
-                        <b>End time: </b>11:22:09
+                        <b>End time: </b>15:04:21
                      </div>
                      <div>
                         <b>Duration: </b>2s

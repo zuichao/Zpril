@@ -12,6 +12,9 @@
 			<class name="abc.TestSelect"/>
 			<class name="abc.TestStringformat"/>
 			<class name="abc.TestWindows"/>
+			<class name="abc.TestDataBase"/>
+			<class name="abc.TestDataDrive"/>
+			<class name="abc.TestDownLoad"/>
 		</classes>
 	</test>
 </suite>

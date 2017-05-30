@@ -7,7 +7,6 @@ public class BasePage {
 //公共页面
 	
 	protected final WebDriver driver;
-	
 	protected String url;
 	
 	//构造函数
@@ -19,8 +18,8 @@ public class BasePage {
 		this.driver.get(this.url);
 	}
 	
-	public String currentUrl(){
-		return this.driver.getCurrentUrl();
-	}
-	
+//	public String currentUrl(){
+//		return this.driver.getCurrentUrl();
+//	}
+//	
 }

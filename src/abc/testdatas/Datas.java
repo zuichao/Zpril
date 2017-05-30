@@ -1,4 +1,4 @@
-package abc.testdata;
+package abc.testdatas;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -68,7 +68,7 @@ public class Datas {
 	
 	public static void main(String[] args){
 		//找到csv文件的位置
-		Datas a = new Datas(System.getProperty("user.dir")+"/src/abc/testdata/userinfo.csv");
+		Datas a = new Datas(System.getProperty("user.dir")+"/src/abc/testdatas/testdata.csv");
 		
 		for(int i=1; i<=3; i++){
 			System.out.println(a.getTestData("username", "tc"+i)+","+a.getTestData("URL", "tc"+i));

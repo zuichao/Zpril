@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="abc.TestDataDrive">
+      <class name="abc.homework.TestLoginMail">
         <methods>
-          <include name="beforeMethod"/>
+          <include name="loginMail"/>
           <include name="afterMethod"/>
-          <include name="dataDrive"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- abc.TestDataDrive -->
+      </class> <!-- abc.homework.TestLoginMail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

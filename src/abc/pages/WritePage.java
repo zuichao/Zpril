@@ -93,7 +93,7 @@ public class WritePage extends BasePage {
 	
 	//在页面等一会儿
 	public void waityihui(){
-		this.driver.manage().timeouts().pageLoadTimeout(5000, TimeUnit.SECONDS);
+		this.driver.manage().timeouts().pageLoadTimeout(10000, TimeUnit.SECONDS);
 	}
 	
 	

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31848" started-at="2017-05-21T13:02:35Z" finished-at="2017-05-21T13:03:07Z">
+  <suite name="Default suite" duration-ms="24799" started-at="2017-05-30T14:25:43Z" finished-at="2017-05-30T14:26:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31848" started-at="2017-05-21T13:02:35Z" finished-at="2017-05-21T13:03:07Z">
-      <class name="abc.TestDataDrive">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestDataDrive@1238fa5]" name="beforeMethod" is-config="true" duration-ms="9431" started-at="2017-05-21T21:02:35Z" finished-at="2017-05-21T21:02:45Z">
+    <test name="Default test" duration-ms="24799" started-at="2017-05-30T14:25:43Z" finished-at="2017-05-30T14:26:07Z">
+      <class name="abc.homework.TestLoginMail">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.homework.TestLoginMail@1238fa5]" name="beforeMethod" is-config="true" duration-ms="8577" started-at="2017-05-30T22:25:43Z" finished-at="2017-05-30T22:25:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="dataDrive()[pri:0, instance:abc.TestDataDrive@1238fa5]" name="dataDrive" duration-ms="19024" started-at="2017-05-21T21:02:45Z" finished-at="2017-05-21T21:03:04Z">
+        <test-method status="PASS" signature="loginMail()[pri:0, instance:abc.homework.TestLoginMail@1238fa5]" name="loginMail" duration-ms="14697" started-at="2017-05-30T22:25:51Z" finished-at="2017-05-30T22:26:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataDrive -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestDataDrive@1238fa5]" name="afterMethod" is-config="true" duration-ms="3327" started-at="2017-05-21T21:03:04Z" finished-at="2017-05-21T21:03:07Z">
+        </test-method> <!-- loginMail -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.homework.TestLoginMail@1238fa5]" name="afterMethod" is-config="true" duration-ms="1476" started-at="2017-05-30T22:26:06Z" finished-at="2017-05-30T22:26:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestDataDrive -->
+      </class> <!-- abc.homework.TestLoginMail -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

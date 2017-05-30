@@ -16,6 +16,7 @@ public class TestStringformat {
 	  LoginPage loginPage = new LoginPage(driver, UrlNameWord.Url);
 	  WritePage writePage = new WritePage(driver);
       loginPage.login(UrlNameWord.u2, UrlNameWord.p);
+      
 	  Thread.sleep(3000);
 	  writePage.backzhu();
 	  writePage.backwait();
