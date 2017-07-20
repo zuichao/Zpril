@@ -18,18 +18,18 @@ public class Browsers {
 				System.setProperty("webdriver.firefox.bin", "D:/Firefox/firefox.exe");
 			} catch (Exception e) {
 				// TODO: handle exception
-				System.out.println("ÕÒ²»µ½ä¯ÀÀÆ÷µÄÎ»ÖÃ£¡£¡£¡");
+				System.out.println("ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½");
 			}
 			driver = new FirefoxDriver();
 			
-			//´°¿Ú×î´ó»¯
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			driver.manage().window().maximize();
 			
-//			//ÉèÖÃ´°¿ÚµÄ¿í¶È£º1000 ¸ß¶È£º500
+//			//ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ÚµÄ¿ï¿½È£ï¿½1000 ï¿½ß¶È£ï¿½500
 //			Dimension d = new Dimension(1000, 500);
 //			driver.manage().window().setSize(d);
 //			
-//			//ÉèÖÃ´°¿ÚµÄ×ø±ê£¬¾­¶È£º200 Î³¶È£º100
+//			//ï¿½ï¿½ï¿½Ã´ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ê£¬ï¿½ï¿½ï¿½È£ï¿½200 Î³ï¿½È£ï¿½100
 //			Point p = new Point(200, 100);
 //			driver.manage().window().setPosition(p);
 			break;
@@ -39,41 +39,43 @@ public class Browsers {
 				System.setProperty("webdriver.ie.driver", "C:\\Program Files\\Internet Explorer\\IEDriverServer.exe");
 			} catch (Exception e) {
 				// TODO: handle exception
-				System.out.println("ÕÒ²»µ½ä¯ÀÀÆ÷µÄÎ»ÖÃ£¡£¡£¡");
+				System.out.println("ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½");
 			}
 			driver = new InternetExplorerDriver();
 			
-			//´°¿Ú×î´ó»¯
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			//driver.manage().window().maximize();
 			
-			//ÉèÖÃ´°¿ÚµÄ¿í¶È£º800 ¸ß¶È£º800
+			//ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ÚµÄ¿ï¿½È£ï¿½800 ï¿½ß¶È£ï¿½800
 			Dimension a = new Dimension(800, 800);
 			driver.manage().window().setSize(a);
 			
-			//ÉèÖÃ´°¿ÚµÄ×ø±ê£¬¾­¶È£º800 Î³¶È£º800
+			//ï¿½ï¿½ï¿½Ã´ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ê£¬ï¿½ï¿½ï¿½È£ï¿½800 Î³ï¿½È£ï¿½800
 			Point b = new Point(800, 800);
 			driver.manage().window().setPosition(b);
 			break;		
 			
 		case chrome:
 			try {
-				System.setProperty("webdriver.chrome.driver", "D:/Chrome/Chrome/Application/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "E:/selenium/chrome1/chromedriver.exe");
 			} catch (Exception e) {
 				// TODO: handle exception
-				System.out.println("ÕÒ²»µ½ä¯ÀÀÆ÷µÄÎ»ÖÃ£¡£¡£¡");
+				System.out.println("ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½");
 			}
 			driver = new ChromeDriver();
 			
-			//´°¿Ú×î´ó»¯
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			//driver.manage().window().maximize();
 			
-			//ÉèÖÃ´°¿ÚµÄ¿í¶È£º800 ¸ß¶È£º800
+			//ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ÚµÄ¿ï¿½È£ï¿½800 ï¿½ß¶È£ï¿½800
 			Dimension c = new Dimension(800, 800);
 			driver.manage().window().setSize(c);
 			
-			//ÉèÖÃ´°¿ÚµÄ×ø±ê£¬¾­¶È£º800 Î³¶È£º800
+			//ï¿½ï¿½ï¿½Ã´ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ê£¬ï¿½ï¿½ï¿½È£ï¿½800 Î³ï¿½È£ï¿½800
 			Point e = new Point(800, 800);
 			driver.manage().window().setPosition(e);
+			
+			driver.manage().window().maximize();
 			break;
 		}
 	}

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24799" started-at="2017-05-30T14:25:43Z" finished-at="2017-05-30T14:26:07Z">
+  <suite name="Default suite" duration-ms="10287" started-at="2017-07-20T00:48:17Z" finished-at="2017-07-20T00:48:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24799" started-at="2017-05-30T14:25:43Z" finished-at="2017-05-30T14:26:07Z">
-      <class name="abc.homework.TestLoginMail">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.homework.TestLoginMail@1238fa5]" name="beforeMethod" is-config="true" duration-ms="8577" started-at="2017-05-30T22:25:43Z" finished-at="2017-05-30T22:25:51Z">
+    <test name="Default test" duration-ms="10287" started-at="2017-07-20T00:48:17Z" finished-at="2017-07-20T00:48:27Z">
+      <class name="abc.TestScreenCapture">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestScreenCapture@2ff4f00f]" name="beforeMethod" is-config="true" duration-ms="8726" started-at="2017-07-20T08:48:17Z" finished-at="2017-07-20T08:48:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginMail()[pri:0, instance:abc.homework.TestLoginMail@1238fa5]" name="loginMail" duration-ms="14697" started-at="2017-05-30T22:25:51Z" finished-at="2017-05-30T22:26:06Z">
+        <test-method status="PASS" signature="testScreenCaptrue()[pri:0, instance:abc.TestScreenCapture@2ff4f00f]" name="testScreenCaptrue" duration-ms="270" started-at="2017-07-20T08:48:25Z" finished-at="2017-07-20T08:48:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginMail -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.homework.TestLoginMail@1238fa5]" name="afterMethod" is-config="true" duration-ms="1476" started-at="2017-05-30T22:26:06Z" finished-at="2017-05-30T22:26:07Z">
+        </test-method> <!-- testScreenCaptrue -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestScreenCapture@2ff4f00f]" name="afterMethod" is-config="true" duration-ms="1283" started-at="2017-07-20T08:48:26Z" finished-at="2017-07-20T08:48:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- abc.homework.TestLoginMail -->
+      </class> <!-- abc.TestScreenCapture -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

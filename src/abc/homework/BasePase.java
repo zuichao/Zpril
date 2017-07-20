@@ -1,6 +1,5 @@
 package abc.homework;
 
-import java.util.HashMap;
 import java.util.Map;
 
 import org.openqa.selenium.By;
@@ -9,14 +8,14 @@ import org.openqa.selenium.WebElement;
 
 public class BasePase {
 	
-//¹«¹²Ò³Ãæ
+//ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½
 	
 	private WebDriver driver;
 	private DBOp db ;
-	private Map<String, String> sf = new HashMap();
+	private Map<String, String> sf ;
 	
 	
-	//¹¹Ôìº¯Êý
+	//ï¿½ï¿½ï¿½ìº¯ï¿½ï¿½
 	public BasePase(WebDriver driver,String tablename){
 		this.driver=driver;
 		
