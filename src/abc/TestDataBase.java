@@ -30,7 +30,7 @@ public class TestDataBase {
   }
   @BeforeMethod
   public void beforeMethod() {
-	  Browsers browsers = new Browsers(BrowsersType.firefox);
+	  Browsers browsers = new Browsers(BrowsersType.chrome);
 	  this.driver = browsers.driver;
   }
 

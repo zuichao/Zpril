@@ -1,6 +1,8 @@
 package abc;
 
 import java.io.File;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -27,11 +29,13 @@ public class TestScreenCapture {
 	@Test
 	public void testScreenCaptrue() throws Exception{
 
-    	LoginSystemScreenshotPage loginSystemScreenshotPage = new LoginSystemScreenshotPage(driver);
+    	LoginSystemScreenshotPage loginS = new LoginSystemScreenshotPage(driver);
     	
-        System.out.println(loginSystemScreenshotPage.getDateTime());
-            
-        loginSystemScreenshotPage.ScreenShot(driver, dir);
+        System.out.println(loginS.getDateTime());
+         
+        driver.findElement(By.xpath("//input[preceding-sibling::label[contains(text(),'ÓÃ»§Ãû')]]")).sendKeys("sunjian");
+        
+        loginS.ScreenShot(driver, dir);
         
         //If more than 10 photos will delete all
         File file = new File(dir);
