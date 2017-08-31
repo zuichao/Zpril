@@ -73,7 +73,7 @@ public class TestWindows {
 		String titlename;
 		for(String handle:handles){
 			titlename = driver.switchTo().window(handle).getTitle();
-		if(titlename.contains("java_百度搜索")) 
+		if(titlename.contains("java_百度搜索"))cnblogs.com 
 			break;
 		}
 	}

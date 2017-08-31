@@ -10,7 +10,11 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 
 public class TestStringformat {
+	
 	WebDriver driver;
+	
+//²âÊÔ¶¯Ì¬Xpath(String mingcheng = String.format("//a[contains(text(),'%2$s')]", "×í³°","CÂÞ","jack","Miss");
+	
   @Test
   public void Stringformat() throws Exception{
 	  LoginPage loginPage = new LoginPage(driver, UrlNameWord.Url);

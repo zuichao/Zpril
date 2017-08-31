@@ -2,10 +2,13 @@ package abc;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import abc.interfaces.Elements;
 import abc.launch.Browsers;
 import abc.launch.BrowsersType;
 
@@ -28,36 +31,43 @@ public class TestSelect {
 	public void test() throws Exception{
 			
 		 Thread.sleep(3000);
+		 //点击下拉按钮
 		 driver.findElement(By.xpath("//span[preceding-sibling::span[contains(text(),'北京')]]")).click();
-		 System.out.println(1);
+		 //点击省下拉按钮
 		 driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='province']")).click();
+		 Thread.sleep(1000);
 		 Select pro = new Select(driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='province']")));
-		 pro.selectByValue("25");
-	     
-	     Thread.sleep(3000);
-	     System.out.println(2);
+		 //选择山西省
+		 pro.selectByVisibleText("B 北京");
+	     Thread.sleep(1000);
+	     //点击市下拉按钮
 	     driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='city']")).click();
-	     System.out.println(2.5);
 	     Select pro2 = new Select(driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='city']")));
-	     pro2.selectByIndex(5);
-//	     pro2.selectByVisibleText("L 临汾");
-	     
-	     Thread.sleep(3000);
-	     System.out.println(3);
+	     //选择市
+	     pro2.selectByVisibleText("B 北京");
+	     Thread.sleep(1000);
+	     //点击下拉按钮
 	     driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='district']")).click();
 	     Select pro3 = new Select(driver.findElement(By.xpath("//select[ancestor::div[@id='weather'] and @data-hook='district']")));
-	     pro3.selectByVisibleText("H 洪洞");
-	     
-	     Thread.sleep(3000);
+	     //选择县
+	     pro3.selectByVisibleText("B 北京");
+	     Thread.sleep(1000);
+	     //点击确定按钮
 	     driver.findElement(By.xpath("//a[contains(text(),'确定')]")).click();
-	     
-	     int o = 0;
+	     Thread.sleep(3000);
+    
 	     for(int i=1;i<10;i++){
-	    	 o+=i;
 	     driver.navigate().refresh();
+	     Thread.sleep(1000);
 	     }
-	     System.out.println(o);
+	     
+	     System.out.println("This city weather is :"+this.tianqi1().getText()+"\t"+this.tianqi2().getText());
 		
 	}
-	
+	public WebElement tianqi1(){
+		return this.driver.findElement(By.xpath(Elements.tianqi1));
+	}
+	public WebElement tianqi2(){
+		return this.driver.findElement(By.xpath(Elements.tianqi2));
+	}
 }
