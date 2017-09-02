@@ -52,6 +52,7 @@ public class TestOutputFiles {
 	    waitPage.wait3();
 	    
 	    Assert.assertEquals(baidu.zhongke().isDisplayed(), true);
+	    
 	    abd = abc+"中科虹霸简介"+".txt";
 	    File file = new File(abd);
 	    try {
@@ -65,6 +66,7 @@ public class TestOutputFiles {
 			// TODO: handle exception
 			e.printStackTrace();
 		}
+	    
 	    abe = abc+"中科虹霸简介 - 副本"+"+.txt";
 	    File file1 = new File(abe);
 	    try {
