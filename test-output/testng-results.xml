@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58676" started-at="2017-08-31T04:53:31Z" finished-at="2017-08-31T04:54:30Z">
+  <suite name="Default suite" duration-ms="42381" started-at="2017-09-02T09:38:07Z" finished-at="2017-09-02T09:38:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58676" started-at="2017-08-31T04:53:31Z" finished-at="2017-08-31T04:54:30Z">
-      <class name="abc.TestSelect">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestSelect@1134affc]" name="beforeMethod" is-config="true" duration-ms="16744" started-at="2017-08-31T12:53:31Z" finished-at="2017-08-31T12:53:48Z">
+    <test name="Default test" duration-ms="42381" started-at="2017-09-02T09:38:07Z" finished-at="2017-09-02T09:38:49Z">
+      <class name="abc.TestOutputFiles">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:abc.TestOutputFiles@1275dab]" name="beforeMethod" is-config="true" duration-ms="13817" started-at="2017-09-02T17:38:07Z" finished-at="2017-09-02T17:38:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test()[pri:0, instance:abc.TestSelect@1134affc]" name="test" duration-ms="36316" started-at="2017-08-31T12:53:48Z" finished-at="2017-08-31T12:54:24Z">
+        <test-method status="PASS" signature="testOutputFiles()[pri:0, instance:abc.TestOutputFiles@1275dab]" name="testOutputFiles" duration-ms="25041" started-at="2017-09-02T17:38:20Z" finished-at="2017-09-02T17:38:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestSelect@1134affc]" name="afterMethod" is-config="true" duration-ms="5604" started-at="2017-08-31T12:54:24Z" finished-at="2017-08-31T12:54:30Z">
+        </test-method> <!-- testOutputFiles -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:abc.TestOutputFiles@1275dab]" name="afterMethod" is-config="true" duration-ms="3479" started-at="2017-09-02T17:38:45Z" finished-at="2017-09-02T17:38:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- abc.TestSelect -->
+      </class> <!-- abc.TestOutputFiles -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

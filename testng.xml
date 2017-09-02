@@ -15,6 +15,9 @@
 			<class name="abc.TestDataBase"/>
 			<class name="abc.TestDataDrive"/>
 			<class name="abc.TestDownLoad"/>
+			<class name="abc.TestUpload"/>
+			<class name="abc.TestOutputFiles"/>
+			<class name="abc.TestScreenCapture"/>
 		</classes>
 	</test>
 </suite>

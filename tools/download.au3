@@ -1,14 +1,15 @@
 Sleep(3000);
-Local $handle - WinGetHandle("CLASS:MozillaDialogClass]");
+Local $handle = WinGetHandle("[CLASS:MozillaDialogClass]");
 
 While 1
-if  @error Then
-    Sleep(3000);
-    $handle = WinGetHandle("CLASS:MozillaDialogClass]");
- Else
-    ExitLoop;
- EndIf
+  If @error Then
+   Sleep(3000);
+   $handle = WinGetHandle("[CLASS:MozillaDialogClass]");
+Else
+   ExitLoop;
+EndIf
 WEnd
-WinActivate("CLASS:MozillaDialogClass");
-Send("{DOWN}");
+
+WinActivate("[CLASS:MozillaDialogClass]");
+Send ("{Left}");
 Send("{ENTER}");

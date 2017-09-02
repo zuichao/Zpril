@@ -1,8 +1,10 @@
 package abc;
 
 import org.testng.annotations.Test;
-import abc.launch.Browsers;
-import abc.launch.BrowsersType;
+
+import abc.launchs.Browsers;
+import abc.launchs.BrowsersType;
+
 import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

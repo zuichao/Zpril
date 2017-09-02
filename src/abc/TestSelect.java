@@ -9,8 +9,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import abc.interfaces.Elements;
-import abc.launch.Browsers;
-import abc.launch.BrowsersType;
+import abc.launchs.Browsers;
+import abc.launchs.BrowsersType;
 
 public class TestSelect {
 	WebDriver driver;

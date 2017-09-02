@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class BasePase {
+public class BasePage {
 	
 //����ҳ��
 	
@@ -16,7 +16,7 @@ public class BasePase {
 	
 	
 	//���캯��
-	public BasePase(WebDriver driver,String tablename){
+	public BasePage(WebDriver driver,String tablename){
 		this.driver=driver;
 		
 		db = new DBOp(tablename);

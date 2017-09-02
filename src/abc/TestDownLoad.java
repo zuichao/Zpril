@@ -1,14 +1,11 @@
 package abc;
 
 import org.testng.annotations.Test;
-import abc.launch.Browsers;
-import abc.launch.BrowsersType;
-import abc.pages.BaiduPage;
-import abc.pages.WritePage;
-
+import abc.interfaces.Outputs;
+import abc.launchs.*;
+import abc.pages.*;
 import org.testng.annotations.BeforeMethod;
-import java.io.IOException;
-
+import java.util.Set;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 
@@ -21,10 +18,12 @@ public class TestDownLoad {
   public void downLoad() throws Exception{
 	  
 	  BaiduPage baidu = new BaiduPage(driver);
-	  WritePage writePage = new WritePage(driver);
+	  WaitPage waitPage = new WaitPage();
+
+	  waitPage.wait3();
 	  
-	  writePage.waityihui();
-	  baidu.gengduochanpin().click();
+//下载任贤齐的歌曲 
+	  /* baidu.gengduochanpin().click();
 	  writePage.waityihui();
 	  baidu.yinyue().click();
 	  writePage.waityihui();
@@ -39,17 +38,22 @@ public class TestDownLoad {
 	  baidu.toSpecificWindow();
 	  Thread.sleep(2000);
 	  baidu.anzhuoxiazai().click();
-	  System.out.println("点击‘安卓下载’");
-	  
-	  try{
-		  Runtime.getRuntime().exec(System.getProperty("user.dir")+"/tools/download.exe");
-		  Thread.sleep(5000);
-	  }catch(IOException e){
-		  e.printStackTrace();
-	  }catch(InterruptedException e){
-		  e.printStackTrace();
-	  }
-	  
+	  System.out.println("点击‘安卓下载’");*/
+	 
+//下载百度网盘
+	  baidu.shurukuang().sendKeys("百度网盘下载");
+	  baidu.baiduyixia().click();
+	  waitPage.wait3();
+	  baidu.baiduwangpan().click();
+	  waitPage.wait3();
+	  this.toSpecificWindow();
+	  waitPage.wait2();
+	  baidu.putongxiazai().click();
+	  waitPage.wait3();
+	  baidu.download();
+	  waitPage.wait30();
+	  this.driver.quit();
+	  System.out.println(Outputs.tags2);	  
   }
   @BeforeMethod
   public void beforeMethod() {
@@ -62,5 +66,16 @@ public class TestDownLoad {
   public void afterMethod() {
 	  this.driver.quit();
   }
+  
+  public void toSpecificWindow(){
+		Set<String> handles = driver.getWindowHandles();
+		String titlename;
+		for(String handle:handles){
+			titlename = driver.switchTo().window(handle).getTitle();
+		if(titlename.contains("soft/detail/")) 
+			break;
+		}
+	}
+  
 
 }

@@ -6,6 +6,9 @@ public class WaitPage {
 	
 	WebDriver driver;
 	
+	public void wait30() throws Exception{
+		Thread.sleep(30000);
+	}
 	public void wait9() throws Exception{
 		Thread.sleep(9000);
 	}

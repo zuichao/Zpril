@@ -8,8 +8,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import abc.launch.Browsers;
-import abc.launch.BrowsersType;
+import abc.launchs.Browsers;
+import abc.launchs.BrowsersType;
 import abc.pages.BaiduPage;
 import abc.pages.WaitPage;
 
@@ -54,9 +54,9 @@ public class TestUpload {
 		baidu.xiugaitupian().click();
 		waitPage.wait5();
 		baidu.uploadtupian().click();
-		waitPage.wait3();
-		
-		baidu.upload("firefox", new File("H:/selenium/tools/1.jpg"));
+		waitPage.wait3();	
+//		baidu.upload("firefox", new File("H:/Jack/selenium/tools/1.jpg"));
+		baidu.upload("firefox", new File("G:/Jack/selenium/tools/1.jpg"));
 		waitPage.wait3();
 		baidu.baocun().click();
 		waitPage.wait5();

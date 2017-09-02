@@ -1,4 +1,4 @@
-package abc.launch;
+package abc.launchs;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
@@ -15,22 +15,22 @@ public class Browsers {
 		switch (browserstype) {
 		case firefox:
 			try {
-//				System.setProperty("webdriver.firefox.bin", "D:/Firefox/firefox.exe");
-				System.setProperty("webdriver.firefox.bin", "E:/selenium/firefox/firefox.exe");
+				System.setProperty("webdriver.firefox.bin", "D:/Firefox/firefox.exe");
+//				System.setProperty("webdriver.firefox.bin", "E:/selenium/firefox/firefox.exe");
 			} catch (Exception e) {
 				// TODO: handle exception
-				System.out.println("锟揭诧拷锟斤拷锟斤拷锟斤拷锟斤拷锟轿伙拷茫锟斤拷锟斤拷锟�");
+				System.out.println("閿熸彮璇ф嫹閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷烽敓鏂ゆ嫹閿熻娇浼欐嫹鑼敓鏂ゆ嫹閿熸枻鎷烽敓锟�?");
 			}
 			driver = new FirefoxDriver();
 			
-			//锟斤拷锟斤拷锟斤拷锟�
+			//閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷烽敓锟�?
 			driver.manage().window().maximize();
 			
-//			//锟斤拷锟矫达拷锟节的匡拷龋锟�1000 锟竭度ｏ拷500
+//			//閿熸枻鎷烽敓鐭揪鎷烽敓鑺傜殑鍖℃嫹榫嬮敓锟�?1000 閿熺搴︼綇鎷�500
 //			Dimension d = new Dimension(1000, 500);
 //			driver.manage().window().setSize(d);
 //			
-//			//锟斤拷锟矫达拷锟节碉拷锟斤拷锟疥，锟斤拷锟饺ｏ拷200 纬锟饺ｏ拷100
+//			//閿熸枻鎷烽敓鐭揪鎷烽敓鑺傜鎷烽敓鏂ゆ嫹閿熺枼锛岄敓鏂ゆ嫹閿熼ズ锝忔嫹200 绾敓楗猴綇鎷�100
 //			Point p = new Point(200, 100);
 //			driver.manage().window().setPosition(p);
 			break;
@@ -40,18 +40,18 @@ public class Browsers {
 				System.setProperty("webdriver.ie.driver", "C:\\Program Files\\Internet Explorer\\IEDriverServer.exe");
 			} catch (Exception e) {
 				// TODO: handle exception
-				System.out.println("锟揭诧拷锟斤拷锟斤拷锟斤拷锟斤拷锟轿伙拷茫锟斤拷锟斤拷锟�");
+				System.out.println("閿熸彮璇ф嫹閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷烽敓鏂ゆ嫹閿熻娇浼欐嫹鑼敓鏂ゆ嫹閿熸枻鎷烽敓锟�?");
 			}
 			driver = new InternetExplorerDriver();
 			
-			//锟斤拷锟斤拷锟斤拷锟�
+			//閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷烽敓锟�?
 			//driver.manage().window().maximize();
 			
-			//锟斤拷锟矫达拷锟节的匡拷龋锟�800 锟竭度ｏ拷800
+			//閿熸枻鎷烽敓鐭揪鎷烽敓鑺傜殑鍖℃嫹榫嬮敓锟�?800 閿熺搴︼綇鎷�800
 			Dimension a = new Dimension(800, 800);
 			driver.manage().window().setSize(a);
 			
-			//锟斤拷锟矫达拷锟节碉拷锟斤拷锟疥，锟斤拷锟饺ｏ拷800 纬锟饺ｏ拷800
+			//閿熸枻鎷烽敓鐭揪鎷烽敓鑺傜鎷烽敓鏂ゆ嫹閿熺枼锛岄敓鏂ゆ嫹閿熼ズ锝忔嫹800 绾敓楗猴綇鎷�800
 			Point b = new Point(800, 800);
 			driver.manage().window().setPosition(b);
 			break;		
@@ -61,18 +61,18 @@ public class Browsers {
 				System.setProperty("webdriver.chrome.driver", "E:/selenium/chrome1/chromedriver.exe");
 			} catch (Exception e) {
 				// TODO: handle exception
-				System.out.println("锟揭诧拷锟斤拷锟斤拷锟斤拷锟斤拷锟轿伙拷茫锟斤拷锟斤拷锟�");
+				System.out.println("閿熸彮璇ф嫹閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷烽敓鏂ゆ嫹閿熻娇浼欐嫹鑼敓鏂ゆ嫹閿熸枻鎷烽敓锟�?");
 			}
 			driver = new ChromeDriver();
 			
-			//锟斤拷锟斤拷锟斤拷锟�
+			//閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷烽敓锟�?
 			//driver.manage().window().maximize();
 			
-			//锟斤拷锟矫达拷锟节的匡拷龋锟�800 锟竭度ｏ拷800
+			//閿熸枻鎷烽敓鐭揪鎷烽敓鑺傜殑鍖℃嫹榫嬮敓锟�?800 閿熺搴︼綇鎷�800
 			Dimension c = new Dimension(800, 800);
 			driver.manage().window().setSize(c);
 			
-			//锟斤拷锟矫达拷锟节碉拷锟斤拷锟疥，锟斤拷锟饺ｏ拷800 纬锟饺ｏ拷800
+			//閿熸枻鎷烽敓鐭揪鎷烽敓鑺傜鎷烽敓鏂ゆ嫹閿熺枼锛岄敓鏂ゆ嫹閿熼ズ锝忔嫹800 绾敓楗猴綇鎷�800
 			Point e = new Point(800, 800);
 			driver.manage().window().setPosition(e);
 			

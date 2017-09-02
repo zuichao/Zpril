@@ -2,7 +2,7 @@ package abc;
 
 import org.testng.annotations.Test;
 
-import abc.launch.*;
+import abc.launchs.*;
 import abc.pages.*;
 import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.WebDriver;
@@ -27,6 +27,7 @@ public class TestPageFactory {
 	  Thread.sleep(1000);
 	  jdFirst.mianfeizhuce();
 	  Thread.sleep(1000);
+	  jdRegister.tongyi();
 	  jdRegister.yonghuming(name);
 	  jdRegister.mima(word);
 	  jdRegister.lijizhuce();

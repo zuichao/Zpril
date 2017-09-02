@@ -1,6 +1,7 @@
 package abc.pages;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -62,6 +63,30 @@ public class BaiduPage extends BasePage {
 	//博客园
 	By bokeyuanLocator = By.xpath("//a[child::em[contains(text(),'博客园')] and contains(@class,'favurl')]");
 	
+//搜索网页
+	//百度网盘链接
+	By baiduwangpanLocator = By.xpath("//a[ancestor::div[contains(@class,'op-soft-title')] and contains(@target,'blank')]");
+	
+	//普通下载
+	By putongxiazaiLocator = By.xpath("//a[ancestor::div[@id='softAbs'] and contains(@class,'normal_')]");
+	
+	//中科虹霸
+	By zhongkeLocator = By.xpath("//p[ancestor::div[@id='2'] and child::em[contains(text(),'中科')]]");
+	
+	public WebElement zhongke(){
+		System.out.println("将中科虹霸的简介输出到文件中");
+		return this.driver.findElement(zhongkeLocator);
+	}
+	
+	public WebElement baiduwangpan(){
+		System.out.println("点击“百度网盘链接”");
+		return this.driver.findElement(baiduwangpanLocator);
+	}
+	public WebElement putongxiazai(){
+		System.out.println("点击“普通下载”");
+		return this.driver.findElement(putongxiazaiLocator);
+	}
+	
 	public WebElement bokeyuan(){
 		System.out.println("点击博客园链接");
 		return this.driver.findElement(bokeyuanLocator);
@@ -110,7 +135,9 @@ public class BaiduPage extends BasePage {
 	*/
 	public void upload(String browser, File file) {
 	    String filePath= file.getAbsolutePath();
-	    String executeFile= "H:/selenium/tools/Upload.exe"; //定义了upload.exe文件的路径
+	  //定义了upload.exe文件的路径
+//	    String executeFile= "H:/Jack/selenium/tools/Upload.exe";
+	    String executeFile= "G:/Jack/selenium/tools/Upload.exe";
 	    String cmd= "\""+ executeFile+ "\""+ " "+ "\""+ browser+ "\""+ " "+ "\""+ filePath+ "\"";
 	    try{
 	        Process p= Runtime.getRuntime().exec(cmd);
@@ -118,6 +145,20 @@ public class BaiduPage extends BasePage {
 	    } catch(Exception e) {
 	        e.printStackTrace();
 	    }
+	}
+	
+	
+//下载文件的方法
+	/**
+	 * 
+	 * @return
+	 */
+	public void download(){
+		 try{
+			  Runtime.getRuntime().exec(System.getProperty("user.dir")+"/tools/download.exe");
+		 }catch(IOException e){
+			 System.out.println("下载失败-_-...");
+		  }
 	}
 	
 	public WebElement gengduochanpin(){

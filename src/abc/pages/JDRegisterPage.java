@@ -22,6 +22,13 @@ public class JDRegisterPage {
 	@FindBy(xpath = "//button[contains(text(),'立即注册')]")
 	private WebElement lijizhuce;
 	
+	@FindBy(xpath = "//button[preceding-sibling::a[contains(text(),'取消')] and contains(text(),'同意')]")
+	private WebElement tongyi;
+	
+	public void tongyi(){
+		tongyi.click();
+	}
+	
 	public void yonghuming(String name){
 		yonghuming.sendKeys(name);
 	}

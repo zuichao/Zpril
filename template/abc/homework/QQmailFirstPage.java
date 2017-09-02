@@ -3,7 +3,7 @@ package abc.homework;
 import org.openqa.selenium.WebDriver;
 
 
-public class QQmailFirstPage extends BasePase {
+public class QQmailFirstPage extends BasePage {
 	
 	private WebDriver driver;
 	

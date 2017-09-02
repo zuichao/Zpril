@@ -2,7 +2,8 @@ package abc;
 
 import org.testng.annotations.Test;
 
-import abc.launch.*;
+import abc.interfaces.Outputs;
+import abc.launchs.*;
 import abc.pages.*;
 import abc.testdatas.*;
 import org.testng.annotations.BeforeMethod;
@@ -27,10 +28,11 @@ public class TestDataBase {
 	  login1.setPassword(test.getValues("PassWord"));
 	  login1.SignIn();
 	  Thread.sleep(5000);
+	  System.out.println(Outputs.tags2);
   }
   @BeforeMethod
   public void beforeMethod() {
-	  Browsers browsers = new Browsers(BrowsersType.chrome);
+	  Browsers browsers = new Browsers(BrowsersType.firefox);
 	  this.driver = browsers.driver;
   }
 

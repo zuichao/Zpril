@@ -13,7 +13,7 @@ public class InBoxPage extends BasePage {
 	}
 	
 	//"收件箱"按钮
-	By inboxButtonLocator = By.id("folder_1");
+	By inboxButtonLocator = By.xpath("//b[ancestor::a[@id='folder_1'] and contains(text(),'收件箱')]");
 	
 	//勾选复选框
 	By ChockBoxsLocator = By.xpath("//form[@id='frm']//div[5]/table[1]/tbody/tr/td[1]/input");

@@ -10,8 +10,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import abc.launch.Browsers;
-import abc.launch.BrowsersType;
+import abc.launchs.Browsers;
+import abc.launchs.BrowsersType;
 
 public class TestCanvas {
 	
